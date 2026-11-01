@@ -29,14 +29,16 @@ A solução funcionará como um hub digital integrado, estruturado em dois grand
 
 | Nome                        | Papel           | Responsabilidades                                 | Representante           |
 |-----------------------------|-----------------|---------------------------------------------------|-------------------------|
-| [Nome do Grupo / Área]      | [Cliente / Stakeholder / Dev] | [Descrever as principais responsabilidades]        | [Nome do Responsável]   |
+| DRI      | Stakeholder | Gerenciar trâmites de mobilidade internacional        | Supervisor Marcelo   |
+| Aluno Unifor      | Usuário Final    | Obter informações sobre Intercâmbio e candidatar-se         | -          |
+| Intercambista Estrangeiro      | [Usuário Final / Operador]    | [Descrever as principais responsabilidades]        | [Nome / Traço]          |
 | [Nome do Grupo / Área]      | [Usuário Final / Operador]    | [Descrever as principais responsabilidades]        | [Nome / Traço]          |
 
 ## 5. Personas
 
-### 5.1. [Nome da Persona 1 - Ex: Usuário Operacional]
-- **Descrição:** [Breve descrição do perfil, hábitos e características do usuário].
-- **Objetivo:** [Principal necessidade ou objetivo que essa persona quer alcançar ao usar o sistema].
+### 5.1. Aluno Unifor
+- **Descrição:** Aluno da Unifor.
+- **Objetivo:** Obter informações sobre Intercâmbio pela Unifor, inscrever-se por editais em períodos para inscrições em Intercâmbios.
 
 ### 5.2. [Nome da Persona 2 - Ex: Gestor / Fiscal]
 - **Descrição:** [Breve descrição do perfil, hábitos e características do usuário].
@@ -44,23 +46,23 @@ A solução funcionará como um hub digital integrado, estruturado em dois grand
 
 ## 6. Necessidades e Funcionalidades
 
-### Necessidade 1: [Nome do Agrupamento de Necessidade 1]
+### Necessidade 1: Inscrição e Participação no programa de Intercâmbio
 
 > **Nota:** Os termos específicos do domínio podem ser consultados no [glossário do projeto](link-para-o-glossario.md).
 
-#### F1.1 [Nome da Funcionalidade 1.1]
-- **Descrição:** [Descrição do que a funcionalidade realiza].
-- **[Incluída / Fora do Escopo]**
-- **Atores:** [Quem executa ou interage com esta funcionalidade]
-- **Frequência:** [Alta / Média / Baixa / Mensal / Eventual]
-- **Valor:** [Alto / Médio / Baixo]
+#### F1.1 Painel de Inscrições
+- **Descrição:** Exibe períodos de inscrição para intercâmbio.
+- **Incluída**
+- **Atores:** Aluno Unifor
+- **Frequência:** Sazonal
+- **Valor:** Médio
 
-#### F1.2 [Nome da Funcionalidade 1.2]
-- **Descrição:** [Descrição do que a funcionalidade realiza].
-- **[Incluída / Fora do Escopo]**
-- **Atores:** [Quem executa ou interage com esta funcionalidade]
-- **Frequência:** [Alta / Média / Baixa]
-- **Valor:** [Alto / Médio / Baixo]
+#### F1.2 Formulário de Inscrição
+- **Descrição:** Formulário Google respectivo ao período de inscrição para intercâmbio correspondente, por meio do qual alunos da Unifor poderão tentar o Intercâmbio no exterior pela Unifor.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor
+- **Frequência:** Sazonal
+- **Valor:** Alto
 
 ### Necessidade 2: [Nome do Agrupamento de Necessidade 2]
 
@@ -189,7 +191,7 @@ journey
 
 ## Checklist de Validação do Documento de Visão
 
-- [ ] O objetivo está claro e alinhado ao problema/necessidade?
+- [x] O objetivo está claro e alinhado ao problema/necessidade?
 - [ ] A proposta de valor é mensurável e relevante?
 - [ ] Todas as partes interessadas estão listadas com papéis definidos?
 - [ ] Existem pelo menos duas personas descritas?
