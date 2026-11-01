@@ -9,16 +9,21 @@
 | 29/10/2026 | 1.0    | Criação inicial do documento de visão para o Sistema de Gestão das Feiras Livres	 | Equipe 3: Nicholas |
 
 ## 1. Objetivo
-
-[Descrever o objetivo do documento e do sistema de forma clara e direta. Exemplo: Definir a proposta de valor e o escopo do [Nome do Sistema], detalhando as necessidades da [Área Solicitante/Cliente], dos [Usuários Finais] e demais partes interessadas.]
+Definir a proposta de valor e o escopo do Portal Unificado de Oportunidades e Mobilidade Internacional (PUMI), detalhando as necessidades da Diretoria de Relações Internacionais (DRI), dos estudantes, docentes e demais partes interessadas de uma instituição de ensino superior. O sistema tem como finalidade centralizar, organizar e simplificar o ecossistema de internacionalização acadêmica, unificando a gestão de editais, bolsas e a prestação de serviços informativos e de suporte à mobilidade.
 
 ## 2. Proposta de Valor
 
-[Apresentar os benefícios esperados com a implementação do sistema, destacando o que será modernizado, otimizado ou resolvido. Exemplo: O sistema permitirá [benefício principal], facilitando [atividades principais]. Espera-se [resultados esperados, ex: maior transparência, agilidade e redução de erros].]
+O sistema permitirá a centralização e a democratização do acesso a programas globais vinculados a Unifor, facilitando a navegação de interessados, discentes e docentes, por editais, prazos e diretrizes institucionais. Espera-se maior transparência nos processos seletivos, agilidade no acompanhamento de manifestações de interesse, redução drástica de erros e retrabalho na submissão de documentos, além de otimizar o tempo de atendimento da equipe da DRI por meio de um portal unificado e intuitivo.
 
 ## 3. Descrição da Demanda
+A solução funcionará como um hub digital integrado, estruturado em dois grandes módulos sinérgicos:
 
-[Descrever o contexto geral do funcionamento da solução. Quais processos serão apoiados, como os usuários utilizarão a ferramenta, os principais recursos esperados e as diretrizes gerais de acesso/segurança.]
+- Módulo de Gestão de Oportunidades (Sugestão 3): Destinado à publicação, cadastro e divulgação automatizada de editais de intercâmbio, bolsas de estudo, programas de dupla titulação e estágios internacionais. O módulo gerenciará os requisitos de elegibilidade, prazos, repositórios de documentação exigida e o rastreamento do status das manifestações de interesse dos candidatos.
+- Módulo de Portal de Internacionalização (Sugestão 4): Focado na experiência do usuário (UX), fornecendo um portal unificado com orientações abrangentes sobre trâmites de vistos, comprovação de proficiência, orientações de hospedagem, custos estimados, diretrizes de aproveitamento de créditos/disciplinas cursadas no exterior e canais diretos de atendimento com a DRI.
+### Diretrizes Operacionais e de Segurança
+- Acessibilidade e Usabilidade: O portal seguirá rigorosos padrões de acessibilidade (WCAG) e responsividade para dispositivos móveis e desktops.
+- Governança de Conteúdo: Contará com perfis de acesso diferenciados (Administradores/DRI para publicação de editais e curadoria de conteúdo, e Usuários/Estudantes e Docentes para consulta e submissão).
+- Segurança e Conformidade: Integrado à infraestrutura de autenticação institucional, garantindo a proteção de dados sensíveis e o cumprimento das normas de privacidade vigentes (LGPD).
 
 ## 4. Partes Interessadas
 
