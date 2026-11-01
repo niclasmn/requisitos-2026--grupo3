@@ -6,7 +6,7 @@
 
 | Data       | Versão | Descrição                                      | Autor             |
 | ---------- | ------ | ---------------------------------------------- | ----------------- |
-| [DD/MM/AAAA]| 1.0    | [Descrição inicial da versão, ex: Criação do documento] | [Nome do Autor/Equipe] |
+| 29/10/2026 | 1.0    | Criação inicial do documento de visão para o Sistema de Gestão das Feiras Livres	 | Equipe 3: Nicholas |
 
 ## 1. Objetivo
 
