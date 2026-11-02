@@ -94,6 +94,13 @@
 - **Frequência:** Alta
 - **Valor:** Alto
 
+#### F2.8 Busca e Filtros de Destinos
+- **Descrição:** Permite buscar oportunidades e instituições com filtros por país, área e duração.
+- **Incluída**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro, Visitante
+- **Frequência:** Alta
+- **Valor:** Alto
+
 ---
 
 ### Necessidade 3: Gestão de Oportunidades e Conteúdo pela DRI
@@ -131,6 +138,20 @@
 - **Fora do Escopo**
 - **Atores:** Equipe DRI
 - **Frequência:** Baixa
+- **Valor:** Médio
+
+#### F3.6 Painel de Candidaturas com Análise Automatizada
+- **Descrição:** Painel para a equipe analisar as candidaturas recebidas, com apoio de análise automatizada dos critérios de elegibilidade.
+- **Fora do Escopo**
+- **Atores:** Equipe DRI
+- **Frequência:** Sazonal
+- **Valor:** Alto
+
+#### F3.7 Notificações e Gestão de Bolsas
+- **Descrição:** Envio de notificações aos candidatos e gestão das bolsas disponíveis e concedidas.
+- **Fora do Escopo**
+- **Atores:** Equipe DRI, Aluno Unifor
+- **Frequência:** Sazonal
 - **Valor:** Médio
 
 ---
@@ -208,6 +229,27 @@
 - **Descrição:** Troca de idiomas (Tandem), agenda de eventos e fórum de dúvidas sobre os processos de intercâmbio.
 - **Fora do Escopo**
 - **Atores:** Aluno Unifor, Aluno Estrangeiro
+- **Frequência:** Baixa
+- **Valor:** Baixo
+
+#### F5.4 Portfólio Digital e Acompanhamento em Tempo Real
+- **Descrição:** Portfólio do aluno e acompanhamento do andamento da sua candidatura e mobilidade.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor
+- **Frequência:** Média
+- **Valor:** Médio
+
+#### F5.5 Aproveitamento de Créditos e Registro Acadêmico
+- **Descrição:** Registro e acompanhamento do aproveitamento de créditos cursados no exterior.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor, Coordenador de Curso
+- **Frequência:** Baixa
+- **Valor:** Médio
+
+#### F5.6 Rede de Ex-participantes (Mentoria)
+- **Descrição:** Rede de contato entre ex-participantes e futuros candidatos para mentoria.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor, Ex-participante
 - **Frequência:** Baixa
 - **Valor:** Baixo
 
