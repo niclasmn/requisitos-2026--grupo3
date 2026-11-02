@@ -1,0 +1,214 @@
+## 6. Necessidades e Funcionalidades
+
+================================================================================
+
+### Necessidade 1: Inscrição e Participação no programa de Intercâmbio
+
+> **Nota:** Os termos específicos do domínio podem ser consultados no [glossário do projeto](link-para-o-glossario.md).
+
+#### F1.1 Painel de Inscrições
+- **Descrição:** Exibe períodos de inscrição para intercâmbio. Apresenta, em retângulo de cantos arredondados, a última janela de inscrição (que pode ser a atual, conforme a data) e a próxima janela. A última janela é exibida com contorno e título em azul escuro (identidade visual anterior da Unifor) e a próxima em azul mais claro (identidade visual atual).
+- **Incluída**
+- **Atores:** Aluno Unifor
+- **Frequência:** Sazonal
+- **Valor:** Médio
+
+#### F1.2 Formulário de Inscrição
+- **Descrição:** Formulário Google respectivo ao período de inscrição para intercâmbio correspondente, por meio do qual alunos da Unifor poderão tentar o Intercâmbio no exterior pela Unifor.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor
+- **Frequência:** Sazonal
+- **Valor:** Alto
+
+#### F1.3 Verificação de Elegibilidade
+- **Descrição:** Painel de preenchimento em que o aluno informa dados do histórico acadêmico (como a PMG) para verificar se atende aos critérios exigidos pela Unifor e pela instituição de destino desejada. Exibe o aviso: "A PMG do aluno deve ser maior ou igual a 7.0 para ter elegibilidade no programa." Critérios de referência: matrícula ativa, 30% a 70% do curso concluído, média maior ou igual a 7,0 e ausência de reprovações.
+- **Incluída**
+- **Atores:** Aluno Unifor
+- **Frequência:** Média
+- **Valor:** Alto
+
+#### F1.4 Consulta de Editais, Requisitos e Documentação
+- **Descrição:** Exibe editais, bolsas e oportunidades de mobilidade com requisitos, prazos e documentação necessária para cada uma.
+- **Incluída**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro
+- **Frequência:** Média
+- **Valor:** Alto
+
+#### F1.5 Manifestação de Interesse
+- **Descrição:** Permite ao aluno registrar interesse em uma oportunidade e acompanhar o andamento dessa manifestação.
+- **Incluída**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro
+- **Frequência:** Sazonal
+- **Valor:** Médio
+
+================================================================================
+
+### Necessidade 2: Descoberta de Instituições Conveniadas e Informações sobre Intercâmbio
+
+#### F2.1 Página Inicial (Home Page)
+- **Descrição:** Apresenta a seção "Estude mundo afora com a Unifor!" com botão "IR" (texto marrom escuro), que redireciona para a página "Intercambista Unifor", e a seção "Do mundo, para a Unifor" com botão "ENROLL" (texto marrom escuro), que redireciona para a página "Intercambista Estrangeiro".
+- **Incluída**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro, Visitante
+- **Frequência:** Alta
+- **Valor:** Alto
+
+#### F2.2 Mapa-Mundi de Instituições Conveniadas
+- **Descrição:** Mapa-múndi branco pontilhado, com países coloridos em azul e pontos azuis brilhantes indicando a localização de cada instituição conveniada. Possui guia de seleção de continente que redireciona a visualização para os limites do continente escolhido.
+- **Incluída**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro, Visitante
+- **Frequência:** Alta
+- **Valor:** Alto
+
+#### F2.3 Cartão da Instituição
+- **Descrição:** Ao selecionar uma instituição no mapa, abre um cartão superior à esquerda com nome da instituição, estado e país em subtítulo e número de vagas disponíveis.
+- **Incluída**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro, Visitante
+- **Frequência:** Alta
+- **Valor:** Médio
+
+#### F2.4 Página "Intercambista Unifor"
+- **Descrição:** Reúne informações e serviços para alunos da Unifor que desejam intercâmbio no exterior, incluindo verificação de critérios por instituição de destino e janelas de inscrição.
+- **Incluída**
+- **Atores:** Aluno Unifor
+- **Frequência:** Alta
+- **Valor:** Alto
+
+#### F2.5 Página "Intercambista Estrangeiro"
+- **Descrição:** Reúne informações para estrangeiros que desejam realizar intercâmbio na Unifor.
+- **Incluída**
+- **Atores:** Aluno Estrangeiro
+- **Frequência:** Média
+- **Valor:** Alto
+
+#### F2.6 Portal Informativo de Internacionalização
+- **Descrição:** Orientações sobre intercâmbio, dupla titulação, vistos, documentação, aproveitamento de disciplinas, despesas, hospedagem, contatos e serviços da DRI, acessíveis também a qualquer pessoa curiosa sobre o intercâmbio na Unifor.
+- **Incluída**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro, Docente, Visitante
+- **Frequência:** Alta
+- **Valor:** Alto
+
+#### F2.7 Versões Multilíngues
+- **Descrição:** Disponibiliza o conteúdo do portal em mais de um idioma, atendendo estrangeiros e brasileiros.
+- **Incluída**
+- **Atores:** Aluno Estrangeiro, Visitante
+- **Frequência:** Alta
+- **Valor:** Alto
+
+================================================================================
+
+### Necessidade 3: Gestão de Oportunidades e Conteúdo pela DRI
+
+#### F3.1 Cadastro e Divulgação de Editais e Bolsas
+- **Descrição:** Permite à DRI cadastrar, atualizar e divulgar editais, bolsas e oportunidades, com requisitos, prazos e documentação.
+- **Incluída**
+- **Atores:** Equipe DRI
+- **Frequência:** Média
+- **Valor:** Alto
+
+#### F3.2 Gestão de Instituições Conveniadas
+- **Descrição:** Permite à DRI manter o cadastro das instituições conveniadas (aproximadamente 140 instituições em 30 países), incluindo localização e vagas.
+- **Incluída**
+- **Atores:** Equipe DRI
+- **Frequência:** Baixa
+- **Valor:** Alto
+
+#### F3.3 Gestão de Conteúdo do Portal
+- **Descrição:** Permite à DRI atualizar os conteúdos informativos do portal, com responsáveis definidos pela atualização (governança de conteúdo).
+- **Incluída**
+- **Atores:** Equipe DRI
+- **Frequência:** Média
+- **Valor:** Médio
+
+#### F3.4 Acompanhamento de Manifestações de Interesse
+- **Descrição:** Permite à DRI visualizar e acompanhar as manifestações de interesse registradas pelos alunos.
+- **Incluída**
+- **Atores:** Equipe DRI
+- **Frequência:** Sazonal
+- **Valor:** Médio
+
+#### F3.5 Relatórios de Perfil e Destinos
+- **Descrição:** Relatórios sobre o perfil dos interessados e os destinos mais procurados.
+- **Fora do Escopo**
+- **Atores:** Equipe DRI
+- **Frequência:** Baixa
+- **Valor:** Médio
+
+================================================================================
+
+### Necessidade 4: Segurança, Desempenho e Conformidade
+
+#### F4.1 Autenticação e Controle de Acesso
+- **Descrição:** Garantir acesso seguro e restrito a perfis autorizados, separando as áreas públicas das áreas administrativas da DRI.
+- **Incluída**
+- **Atores:** Equipe DRI, Aluno Unifor
+- **Frequência:** Sempre
+- **Valor:** Alto
+
+#### F4.2 Requisito de Desempenho
+- **Descrição:** O tempo de resposta para as operações principais (carregamento do mapa, consulta de editais, verificação de elegibilidade) deve ser de até X segundos.
+- **Incluída**
+- **Atores:** Todos
+- **Frequência:** Sempre
+- **Valor:** Alto
+
+#### F4.3 Acessibilidade
+- **Descrição:** O portal deve seguir boas práticas de acessibilidade para ser utilizável por pessoas com diferentes necessidades.
+- **Incluída**
+- **Atores:** Todos
+- **Frequência:** Sempre
+- **Valor:** Alto
+
+#### F4.4 Usabilidade e Responsividade
+- **Descrição:** Interface adaptável a computadores e dispositivos móveis, com organização clara da informação.
+- **Incluída**
+- **Atores:** Todos
+- **Frequência:** Sempre
+- **Valor:** Alto
+
+#### F4.5 Identidade Visual
+- **Descrição:** A interface deve seguir a identidade visual atual da Unifor.
+- **Incluída**
+- **Atores:** Todos
+- **Frequência:** Sempre
+- **Valor:** Médio
+
+#### F4.6 Proteção de Dados Pessoais (LGPD)
+- **Descrição:** Os dados acadêmicos e pessoais informados pelos usuários devem ser tratados em conformidade com a LGPD.
+- **Incluída**
+- **Atores:** Todos
+- **Frequência:** Sempre
+- **Valor:** Alto
+
+#### F4.7 Disponibilidade
+- **Descrição:** O portal deve permanecer disponível, especialmente nos períodos de inscrição.
+- **Incluída**
+- **Atores:** Todos
+- **Frequência:** Sempre
+- **Valor:** Médio
+
+================================================================================
+
+### Necessidade 5: Preparação, Pós-Intercâmbio e Colaboração
+
+#### F5.1 Central de Preparação
+- **Descrição:** Recursos para idiomas, cultura e planejamento financeiro, com estimativa de custos e busca por bolsas.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor
+- **Frequência:** Média
+- **Valor:** Médio
+
+#### F5.2 Relatos de Experiência
+- **Descrição:** Espaço para ex-participantes compartilharem suas experiências de intercâmbio.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor, Ex-participante
+- **Frequência:** Baixa
+- **Valor:** Médio
+
+#### F5.3 Tandem, Eventos e Fórum
+- **Descrição:** Troca de idiomas (Tandem), agenda de eventos e fórum de dúvidas sobre os processos de intercâmbio.
+- **Fora do Escopo**
+- **Atores:** Aluno Unifor, Aluno Estrangeiro
+- **Frequência:** Baixa
+- **Valor:** Baixo
+
+================================================================================
