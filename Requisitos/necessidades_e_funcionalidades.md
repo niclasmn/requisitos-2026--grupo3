@@ -1,6 +1,6 @@
 ## 6. Necessidades e Funcionalidades
 
-================================================================================
+---
 
 ### Necessidade 1: Inscrição e Participação no programa de Intercâmbio
 
@@ -41,7 +41,7 @@
 - **Frequência:** Sazonal
 - **Valor:** Médio
 
-================================================================================
+---
 
 ### Necessidade 2: Descoberta de Instituições Conveniadas e Informações sobre Intercâmbio
 
@@ -94,7 +94,7 @@
 - **Frequência:** Alta
 - **Valor:** Alto
 
-================================================================================
+---
 
 ### Necessidade 3: Gestão de Oportunidades e Conteúdo pela DRI
 
@@ -133,7 +133,7 @@
 - **Frequência:** Baixa
 - **Valor:** Médio
 
-================================================================================
+---
 
 ### Necessidade 4: Segurança, Desempenho e Conformidade
 
@@ -186,7 +186,7 @@
 - **Frequência:** Sempre
 - **Valor:** Médio
 
-================================================================================
+---
 
 ### Necessidade 5: Preparação, Pós-Intercâmbio e Colaboração
 
@@ -211,4 +211,4 @@
 - **Frequência:** Baixa
 - **Valor:** Baixo
 
-================================================================================
+---
