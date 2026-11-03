@@ -135,7 +135,7 @@ As personas abaixo são perfis de referência propostos para orientar decisões 
 - **Necessidades no PUMI:** acesso rápido às informações de elegibilidade, requisitos acadêmicos detalhados por edital e diretrizes claras de aproveitamento de créditos.
 
 ## 6. Necessidades e funcionalidades
-> **Nota:** Os termos específicos do domínio podem ser consultados no [glossário do projeto](link-para-o-glossario.md).
+> **Nota:** Os termos específicos do domínio podem ser consultados no [glossário do projeto](https://github.com/niclasmn/requisitos-2026--grupo3/blob/main/Requisitos/Glossario.md).
 ---
 
 Os valores e frequências indicam a prioridade relativa sugerida para o produto. A priorização definitiva deverá ser feita com o Product Owner e revista a cada Sprint.
@@ -482,4 +482,4 @@ As histórias abaixo podem ser convertidas em Product Backlog Items. Os critéri
 
 ---
 
-> Referência: Guia de Elaboração de Visão da Demanda.
+> Referência: Guia de Elaboração de Visão da Demanda do [Repositório Feira Livre] (https://github.com/marcelobezerra-dotcom/requisitos-projeto-feira-livre-2026-01/tree/main/Requisitos).
