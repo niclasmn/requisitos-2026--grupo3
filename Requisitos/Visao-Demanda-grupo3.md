@@ -85,34 +85,18 @@ A demanda consiste em desenvolver uma aplicação web responsiva que funcione co
 
 ## 4. Partes Interessadas
 
-| Parte interessada | Papel no projeto | Necessidades e responsabilidades | Representante / observação |
-|---|---|---|---|
-| Diretoria de Relações Internacionais (DRI) | Stakeholder principal e área responsável pelo negócio | Definir regras e conteúdos oficiais; validar oportunidades, calendários e orientações; administrar publicações; acompanhar manifestações de interesse; avaliar os resultados do portal. | Supervisor Marcelo, conforme informação inicial; confirmar representante e disponibilidade para validações. |
-| Estudantes da Unifor | Usuários finais | Encontrar oportunidades, entender requisitos e prazos, verificar preliminarmente a elegibilidade e acompanhar o contato inicial com a DRI. | Amostra de estudantes para validação e testes. |
-| Estudantes estrangeiros / candidatos internacionais | Usuários finais | Conhecer a Unifor, entender possibilidades de mobilidade de entrada, requisitos, documentação, calendário e canais de contato. | Amostra de usuários internacionais ou representantes indicados pela DRI, quando disponível. |
-| Docentes da Unifor | Usuários finais / público interessado | Consultar programas, parcerias e possibilidades de mobilidade ou cooperação acadêmica. | Docentes indicados pela Universidade. |
-| Visitantes e público externo | Usuários finais | Consultar informações públicas sobre a internacionalização e conhecer as oportunidades da Unifor. | Público geral; não necessita de cadastro para conteúdos públicos. |
-| Instituições conveniadas | Parceiros / fontes de informação | Fornecer ou validar informações sobre programas, vagas, requisitos e calendários, por intermédio dos canais institucionais definidos. | Não são operadores do sistema no MVP, salvo decisão futura da DRI. |
-| Equipe de TI / infraestrutura da Unifor | Stakeholder técnico | Orientar hospedagem, autenticação, segurança, integrações, domínio e políticas técnicas institucionais. | Área técnica a ser identificada pela Unifor. |
-| Equipe de desenvolvimento / Equipe 3 | Responsável pela construção do produto no contexto do projeto | Levantar requisitos, priorizar backlog, desenvolver, testar, documentar e apresentar incrementos. | Equipe 3. |
+| Nome                        | Papel           | Responsabilidades                                 | Representante           |
+|-----------------------------|-----------------|---------------------------------------------------|-------------------------|
+| DRI      | Stakeholder | Gerenciar trâmites de mobilidade internacional        | Supervisor Marcelo   |
+| Aluno Unifor      | Usuário Final    | Obter informações sobre Intercâmbio e candidatar-se         | -          |
+| Intercambista Estrangeiro      | [Usuário Final / Operador]    | [Descrever as principais responsabilidades]        | [Nome / Traço]          |
+| [Nome do Grupo / Área]      | [Usuário Final / Operador]    | [Descrever as principais responsabilidades]        | [Nome / Traço]          |
 
 ## 5. Personas
 
-As personas abaixo são perfis de referência propostos para orientar decisões de experiência. Não representam entrevistas já realizadas.
-
-### 5.1. Mariana — estudante da Unifor interessada em intercâmbio
-
-- **Descrição:** estudante de graduação que ouviu falar sobre oportunidades internacionais, mas não sabe por onde começar nem onde encontrar os editais vigentes.
-- **Objetivos:** descobrir instituições conveniadas, entender requisitos e prazos, verificar se atende preliminarmente aos critérios e saber qual é o próximo passo para se candidatar.
-- **Dores:** informações espalhadas; dúvidas sobre a própria elegibilidade; receio de perder prazos ou esquecer documentação.
-- **Necessidades no PUMI:** catálogo filtrável, calendário visível, detalhes completos da oportunidade, verificador preliminar e link para o procedimento oficial.
-
-### 5.2. Alex — estudante estrangeiro interessado na Unifor
-
-- **Descrição:** estudante de uma universidade estrangeira que deseja conhecer possibilidades de mobilidade acadêmica em Fortaleza.
-- **Objetivos:** compreender como estudar na Unifor, quais informações deve obter com sua instituição de origem, quais documentos podem ser necessários e com quem falar.
-- **Dores:** dificuldade para localizar informações em outro idioma e desconhecimento dos procedimentos locais.
-- **Necessidades no PUMI:** jornada de entrada identificável, conteúdo essencial em inglês, orientações organizadas e canal de contato da DRI.
+### 5.1. Aluno Unifor
+- **Descrição:** Aluno da Unifor.
+- **Objetivo:** Obter informações sobre Intercâmbio pela Unifor, inscrever-se por editais em períodos para inscrições em Intercâmbios.
 
 ### 5.3. Camila — responsável pelo conteúdo e atendimento na DRI
 
@@ -138,23 +122,23 @@ As personas abaixo são perfis de referência propostos para orientar decisões 
 > **Nota:** Os termos específicos do domínio podem ser consultados no [glossário do projeto](link-para-o-glossario.md).
 ---
 
-### Necessidade 1: Inscrição e Participação no programa de Intercâmbio
+### Necessidade 1: [Nome do Agrupamento de Necessidade 1]
 
 > **Nota:** Os termos específicos do domínio podem ser consultados no [glossário do projeto](link-para-o-glossario.md).
 
 #### F1.1 Painel de Inscrições
-- **Descrição:** Exibe períodos de inscrição para intercâmbio. Apresenta, em retângulo de cantos arredondados, a última janela de inscrição (que pode ser a atual, conforme a data) e a próxima janela. A última janela é exibida com contorno e título em azul escuro (identidade visual anterior da Unifor) e a próxima em azul mais claro (identidade visual atual).
+- **Descrição:** Exibe períodos de inscrição para intercâmbio.
 - **Incluída**
 - **Atores:** Aluno Unifor
 - **Frequência:** Sazonal
 - **Valor:** Médio
 
-#### F1.2 Formulário de Inscrição
-- **Descrição:** Formulário Google respectivo ao período de inscrição para intercâmbio correspondente, por meio do qual alunos da Unifor poderão tentar o Intercâmbio no exterior pela Unifor.
-- **Fora do Escopo**
-- **Atores:** Aluno Unifor
-- **Frequência:** Sazonal
-- **Valor:** Alto
+#### F1.2 [Nome da Funcionalidade 1.2]
+- **Descrição:** [Descrição do que a funcionalidade realiza].
+- **[Incluída / Fora do Escopo]**
+- **Atores:** [Quem executa ou interage com esta funcionalidade]
+- **Frequência:** [Alta / Média / Baixa]
+- **Valor:** [Alto / Médio / Baixo]
 
 #### F1.3 Verificação de Elegibilidade
 - **Descrição:** Painel de preenchimento em que o aluno informa dados do histórico acadêmico (como a PMG) para verificar se atende aos critérios exigidos pela Unifor e pela instituição de destino desejada. Exibe o aviso: "A PMG do aluno deve ser maior ou igual a 7.0 para ter elegibilidade no programa." Critérios de referência: matrícula ativa, 30% a 70% do curso concluído, média maior ou igual a 7,0 e ausência de reprovações.
@@ -579,105 +563,26 @@ graph TB
 
 ```mermaid
 journey
-    title Jornada de mobilidade de saída — estudante da Unifor
-    section Descoberta
-      Acessar o PUMI: 5: Estudante
-      Escolher estudar no exterior: 5: Estudante
-      Explorar instituições e oportunidades: 4: Estudante
-    section Avaliação
-      Consultar requisitos e prazos: 5: Estudante
-      Verificar elegibilidade preliminar: 4: Estudante
-      Consultar orientações e documentos: 4: Estudante
-    section Próximos passos
-      Registrar interesse: 4: Estudante
-      Acessar candidatura oficial: 5: Estudante
-      Consultar situação do interesse: 3: Estudante
+    title Mapa de Histórias de Usuário — [Nome do Sistema]
+    section [Ator / Perfil 1]
+      [Ação / Funcionalidade 1]: 5
+      [Ação / Funcionalidade 2]: 4
+    section [Ator / Perfil 2]
+      [Ação / Funcionalidade 3]: 5
 ```
-
-## 10. Histórias de usuário iniciais e critérios de aceitação
-
-As histórias abaixo podem ser convertidas em Product Backlog Items. Os critérios são exemplos para orientar refinamento e não substituem a validação do Product Owner.
-
-### Épico A — Descoberta e consulta
-
-**US01 — Como visitante, quero escolher entre mobilidade de saída e de entrada, para acessar rapidamente as informações relevantes ao meu objetivo.**
-
-- Dado que acesso a página inicial, quando visualizo o conteúdo, então encontro as duas jornadas principais identificadas e acessíveis.
-- Dado que seleciono uma jornada, quando aciono seu botão, então sou direcionado à página correspondente.
-
-**US02 — Como estudante, quero filtrar oportunidades por país, instituição e modalidade, para encontrar opções compatíveis com meu interesse.**
-
-- Dado que existem oportunidades publicadas, quando aplico filtros, então vejo apenas os registros correspondentes.
-- Dado que nenhum registro corresponde aos filtros, então o portal apresenta uma mensagem clara e permite limpar os filtros.
-
-**US03 — Como estudante estrangeiro, quero consultar orientações essenciais em inglês, para compreender como buscar mobilidade na Unifor.**
-
-- Dado que estou em uma página com versão em inglês, quando seleciono esse idioma, então o conteúdo essencial é exibido em inglês.
-- Quando uma informação ainda não estiver traduzida, o portal informa essa limitação e apresenta um canal de contato.
-
-### Épico B — Elegibilidade e candidatura
-
-**US04 — Como estudante da Unifor, quero consultar os critérios de uma oportunidade, para entender o que será exigido antes de iniciar a candidatura.**
-
-- A página de detalhes apresenta os critérios cadastrados pela DRI.
-- O portal distingue critérios obrigatórios, quando assim cadastrados, de informações complementares.
-
-**US05 — Como estudante da Unifor, quero informar meus dados acadêmicos e receber uma verificação preliminar, para saber se aparentemente atendo aos critérios publicados.**
-
-- O sistema compara os dados informados com os critérios associados à oportunidade selecionada.
-- O resultado identifica os critérios atendidos e não atendidos.
-- O resultado contém aviso de que não representa aprovação nem substitui a conferência oficial.
-
-**US06 — Como estudante, quero encontrar o link do processo oficial, para concluir minha candidatura no canal indicado pela DRI.**
-
-- A oportunidade publicada apresenta o link oficial, quando houver.
-- O portal informa quando o processo será realizado fora do PUMI.
-
-### Épico C — Interesse e atendimento
-
-**US07 — Como estudante autenticado, quero registrar meu interesse em uma oportunidade, para iniciar contato organizado com a DRI.**
-
-- O sistema identifica a oportunidade e o usuário autenticado.
-- Antes de concluir, o estudante visualiza aviso de que a manifestação não é uma candidatura oficial.
-- Após confirmar, o sistema gera um protocolo e registra a situação inicial.
-
-**US08 — Como profissional da DRI, quero consultar manifestações por oportunidade e atualizar sua situação, para organizar os retornos aos estudantes.**
-
-- O administrador visualiza os registros conforme suas permissões.
-- Toda mudança de situação registra data e usuário responsável.
-- A DRI não consegue alterar a manifestação de outro usuário sem permissão administrativa apropriada.
-
-### Épico D — Administração
-
-**US09 — Como administrador da DRI, quero cadastrar e atualizar oportunidades, para manter o catálogo confiável sem solicitar mudanças à equipe de desenvolvimento.**
-
-- O formulário valida os campos obrigatórios antes de publicar.
-- O administrador pode salvar um registro como rascunho.
-- O administrador pode publicar, encerrar ou arquivar uma oportunidade.
-
-**US10 — Como administrador da DRI, quero atualizar calendários e guias, para manter as orientações do portal alinhadas às informações institucionais.**
-
-- O administrador pode editar conteúdo e indicar o idioma.
-- A página pública apresenta a versão publicada e sua data de atualização, quando aplicável.
 
 ---
 
-## 11. Checklist de validação do Documento de Visão
+## Checklist de Validação do Documento de Visão
 
-- [x] O objetivo está claro e alinhado à necessidade de internacionalização.
-- [x] A proposta de valor está relacionada aos públicos e às jornadas do produto.
-- [x] As sugestões 3 (Gestão de Oportunidades Internacionais) e 4 (Portal de Internacionalização) estão integradas.
-- [x] As partes interessadas e seus papéis estão identificados.
-- [x] Há mais de duas personas, cobrindo públicos internos e externos e a operação da DRI.
-- [x] As necessidades e funcionalidades estão relacionadas a atores.
-- [x] As funcionalidades apresentam escopo, frequência, valor e prioridade sugerida.
-- [x] Há requisitos não funcionais com critérios iniciais de verificação.
-- [x] A arquitetura de alto nível e os diagramas solicitados estão preenchidos.
-- [x] Há histórias de usuário e critérios de aceitação iniciais.
-- [x] O escopo do MVP e os itens fora do escopo estão delimitados.
-- [ ] A DRI confirmou as regras acadêmicas, os calendários, os conteúdos e o fluxo de atendimento.
-- [ ] A TI confirmou a viabilidade da autenticação institucional e da infraestrutura.
-- [ ] Os indicadores e metas foram ajustados após levantamento de linha de base.
+- [x] O objetivo está claro e alinhado ao problema/necessidade?
+- [ ] A proposta de valor é mensurável e relevante?
+- [ ] Todas as partes interessadas estão listadas com papéis definidos?
+- [ ] Existem pelo menos duas personas descritas?
+- [ ] Todas as necessidades e funcionalidades estão relacionadas a atores?
+- [ ] Há indicação de valor e frequência para cada funcionalidade?
+- [ ] A arquitetura está ilustrada com os diagramas UML (Caso de Uso, Componentes e Implantação)?
+- [ ] O documento está escrito em linguagem clara e objetiva?
 
 ---
 
