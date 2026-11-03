@@ -13,7 +13,7 @@
 | Data | Versão | Descrição | Autor |
 |---|---:|---|---|
 | 29/10/2026 | 1.0 | Criação inicial da visão da demanda do PUMI. | Equipe 3 — Nicholas |
-| 01/11/2026 | 1.1 | Revisão da visão, consolidação das sugestões 3 (Gestão de Oportunidades Internacionais) e 4 (Portal de Internacionalização), preenchimento das lacunas e delimitação da Visão de Demnda para um MVP adequado ao Scrum. | Equipe 3 |
+| 01/11/2026 | 1.1 | Revisão da visão, consolidação das sugestões 3 (Gestão de Oportunidades Internacionais) e 4 (Portal de Internacionalização), preenchimento das lacunas e delimitação da Visão de Demanda para um MVP adequado ao Scrum. | Equipe 3 |
 
 > **Nota de elaboração:** esta versão transforma a concepção inicial em uma proposta de produto. Os itens identificados como **proposta a validar** são decisões sugeridas para orientar o desenvolvimento e precisam ser confirmados com a DRI e, quando aplicável, com as áreas responsáveis da Unifor. Em especial, critérios acadêmicos, períodos oficiais, disponibilidade de integrações e regras de tratamento de dados não devem ser considerados definitivos sem validação institucional.
 
