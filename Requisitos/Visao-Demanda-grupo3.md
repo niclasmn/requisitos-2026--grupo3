@@ -390,39 +390,10 @@ As personas abaixo são perfis de referência propostos para orientar decisões 
 - **Valor:** Baixo
 
 ---
-## 7. Regras de negócio propostas
 
-As regras abaixo traduzem a concepção inicial em comportamentos verificáveis. As regras acadêmicas e operacionais precisam ser confirmadas pela DRI antes de serem implementadas como critérios oficiais.
+## 7. Arquitetura da demanda
 
-| ID | Regra | Descrição |
-|---|---|---|
-| RN01 | Publicação de oportunidade | Uma oportunidade só poderá ser publicada quando possuir, no mínimo, título, descrição, instituição ou organização responsável, público-alvo, situação, prazo ou indicação explícita de prazo não divulgado e canal/link de orientação oficial. |
-| RN02 | Atualização de prazos | Oportunidades com prazo encerrado devem ser identificadas como encerradas ou arquivadas; não devem continuar aparecendo como abertas. |
-| RN03 | Dados de vagas | O número de vagas só será exibido quando tiver sido informado e validado pela DRI. O sistema não deverá assumir que uma vaga não informada equivale a zero. |
-| RN04 | Critérios por oportunidade | Os critérios de elegibilidade devem estar associados à oportunidade correspondente, pois podem variar conforme edital ou instituição de destino. |
-| RN05 | PMG | A concepção inicial registra PMG maior ou igual a 7,0 como referência de elegibilidade. **A DRI deve confirmar se esse limite é vigente, universal e suficiente** antes de configurá-lo como regra. O sistema deve permitir ajustar o critério por oportunidade, caso a regra institucional varie. |
-| RN06 | Resultado do verificador | O resultado será orientativo: “Atende aos critérios informados”, “Não atende a um ou mais critérios informados” ou “Não foi possível concluir”. O resultado não garante aprovação nem substitui a conferência oficial da DRI. |
-| RN07 | Dados acadêmicos | No MVP, os dados usados na verificação serão informados pelo próprio estudante. O sistema não consultará nem alterará o histórico acadêmico oficial. |
-| RN08 | Manifestação de interesse | Registrar interesse não equivale a inscrição, candidatura, reserva de vaga ou aprovação. O portal deverá exibir esse aviso antes da confirmação. |
-| RN09 | Candidatura oficial | A candidatura deverá seguir o procedimento e o prazo definidos no edital e pela DRI, inclusive quando ocorrer em formulário ou sistema externo. |
-| RN10 | Conteúdo público | Visitantes poderão consultar páginas, oportunidades e orientações públicas sem criar conta. |
-| RN11 | Conteúdo administrativo | Somente usuários com perfil autorizado poderão criar, editar, publicar ou arquivar conteúdo institucional. |
-| RN12 | Idiomas | A versão em inglês deverá apresentar conteúdo equivalente nos tópicos essenciais destinados ao público internacional; informações não traduzidas deverão ser sinalizadas ou direcionar para contato institucional. |
-
-### 7.1. Fluxo simplificado de verificação de elegibilidade
-
-1. O estudante acessa uma oportunidade e seleciona **“Verificar minha elegibilidade”**.
-2. O sistema apresenta os critérios cadastrados para aquela oportunidade e explica que a verificação é preliminar.
-3. O estudante informa a PMG e os demais dados solicitados pelo edital, conforme os critérios cadastrados.
-4. O sistema compara as respostas com as regras configuradas e apresenta o resultado, indicando quais critérios foram ou não atendidos.
-5. O sistema orienta o estudante a consultar o edital e seguir o canal oficial de candidatura.
-
-A PMG mínima de 7,0 aparece na concepção inicial, mas deverá ser confirmada pela DRI. Não se deve codificar o valor diretamente na aplicação: ele deve ser armazenado como critério configurável da oportunidade.
----
-
-## 8. Arquitetura da demanda
-
-### 8.1. Visão arquitetural
+### 7.1. Visão arquitetural
 
 A proposta é uma **aplicação web responsiva**, acessível por navegadores em computadores e celulares. Para o MVP, não é necessário desenvolver aplicativos nativos separados.
 
@@ -435,7 +406,7 @@ A arquitetura sugerida é simples e modular:
 
 A equipe deverá escolher as tecnologias considerando familiaridade, disponibilidade de hospedagem, documentação e facilidade de manutenção. A Visão da Demanda não fixa framework, linguagem ou fornecedor de banco de dados.
 
-### 8.2. Entidades principais sugeridas
+### 7.2. Entidades principais sugeridas
 
 | Entidade | Finalidade / dados principais |
 |---|---|
@@ -449,16 +420,16 @@ A equipe deverá escolher as tecnologias considerando familiaridade, disponibili
 | Manifestação de interesse | Usuário, oportunidade, protocolo, data e situação. |
 | Histórico de situação | Manifestação, situação anterior/nova, data e usuário responsável pela alteração. |
 
-### 8.3. Integrações e dependências
+### 7.3. Integrações e dependências
 
 - **Autenticação Unifor:** desejável para o acesso de estudantes e administradores. A viabilidade depende da documentação e da autorização da área de TI. Caso não esteja disponível no período do projeto, a equipe deverá limitar o recurso ou adotar uma estratégia provisória de autenticação aprovada pelo orientador e sem simular integração institucional.
 - **Formulários de candidatura:** o PUMI manterá links para os formulários oficiais atualmente utilizados. A candidatura continuará no canal definido pela DRI.
 - **Mapa:** o mapa deverá usar uma solução de visualização compatível com o projeto e marcadores cadastrados pela DRI. A listagem textual deverá continuar disponível caso o mapa ou serviço externo falhe.
 - **Conteúdo institucional:** a DRI será a fonte de validação dos textos, editais, calendários, requisitos e dados de instituições.
 
-## 9. Diagramas
+## 8. Diagramas
 
-### 9.1. Diagrama de casos de uso (visão simplificada)
+### 8.1. Diagrama de casos de uso (visão simplificada)
 
 ```mermaid
 flowchart LR
@@ -504,7 +475,7 @@ flowchart LR
     DRI --> UC11
 ```
 
-### 9.2. Diagrama de componentes
+### 8.2. Diagrama de componentes
 
 ```mermaid
 graph TB
@@ -549,7 +520,7 @@ graph TB
     UI -.-> Mapa
 ```
 
-### 9.3. Diagrama de implantação
+### 8.3. Diagrama de implantação
 
 ```mermaid
 graph TB
@@ -575,7 +546,7 @@ graph TB
     Navegador -.->|Candidatura oficial| Form
 ```
 
-### 9.4. Mapa de histórias de usuário — jornada principal
+### 8.4. Mapa de histórias de usuário — jornada principal
 
 ```mermaid
 journey
@@ -594,7 +565,7 @@ journey
       Consultar situação do interesse: 3: Estudante
 ```
 
-## 10. Histórias de usuário iniciais e critérios de aceitação
+## 9. Histórias de usuário iniciais e critérios de aceitação
 
 As histórias abaixo podem ser convertidas em Product Backlog Items. Os critérios são exemplos para orientar refinamento e não substituem a validação do Product Owner.
 
@@ -662,7 +633,7 @@ As histórias abaixo podem ser convertidas em Product Backlog Items. Os critéri
 
 ---
 
-## 11. Checklist de validação do Documento de Visão
+## 10. Checklist de validação do Documento de Visão
 
 - [x] O objetivo está claro e alinhado à necessidade de internacionalização.
 - [x] A proposta de valor está relacionada aos públicos e às jornadas do produto.
