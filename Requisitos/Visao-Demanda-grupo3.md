@@ -183,7 +183,7 @@ Os valores e frequências indicam a prioridade relativa sugerida para o produto.
 
 ### Necessidade 5 — Garantir segurança, qualidade e continuidade
 
-| ID | Requisito / funcionalidade | Descrição | Escopo | Atores | Frequência | Valor | Prioridade sugerida |
+| ID | Requisito Não Funcional | Descrição | Escopo | Atores | Frequência | Valor | Prioridade sugerida |
 |---|---|---|---|---|---|---|---|
 | F5.1 | Controle de acesso por perfil | Aplicar permissões distintas para visitante, estudante autenticado e administrador DRI. | Incluída | Todos | Sempre | Alto | Must |
 | F5.2 | Proteção de dados | Coletar somente os dados necessários à manifestação de interesse e à autenticação; informar finalidade e tratamento dos dados. | Incluída | Estudante, DRI, Unifor | Sempre | Alto | Must |
@@ -260,94 +260,104 @@ A equipe deverá escolher as tecnologias considerando familiaridade, disponibili
 ## 9. Diagramas
 
 ### 9.1. Diagrama de casos de uso (visão simplificada)
-
 ```mermaid
 flowchart LR
-    Visitante([Visitante / público externo])
-    Aluno([Estudante Unifor])
-    Estrangeiro([Estudante estrangeiro])
-    Docente([Docente])
-    DRI([Administrador DRI])
-
-    subgraph PUMI[Portal Unificado de Oportunidades e Mobilidade Internacional]
-        UC1([Consultar portal e guias])
-        UC2([Pesquisar oportunidades])
-        UC3([Consultar instituições e mapa])
-        UC4([Consultar calendário e prazos])
-        UC5([Verificar elegibilidade preliminar])
-        UC6([Registrar manifestação de interesse])
-        UC7([Consultar protocolo e situação])
-        UC8([Acessar orientação para mobilidade de entrada])
-        UC9([Gerenciar oportunidades e instituições])
-        UC10([Gerenciar calendário e conteúdo])
-        UC11([Atualizar situação das manifestações])
+    subgraph Perfis["👥 Perfis de Acesso"]
+        direction TB
+        A1[Visitante / Externo]
+        A2[Estudante Unifor]
+        A3[Estudante Estrangeiro]
+        A4[Docente]
+        A5[Administrador DRI]
     end
 
-    Visitante --> UC1
-    Visitante --> UC2
-    Visitante --> UC3
-    Visitante --> UC4
-    Aluno --> UC1
-    Aluno --> UC2
-    Aluno --> UC3
-    Aluno --> UC4
-    Aluno --> UC5
-    Aluno --> UC6
-    Aluno --> UC7
-    Estrangeiro --> UC1
-    Estrangeiro --> UC2
-    Estrangeiro --> UC8
-    Docente --> UC1
-    Docente --> UC2
-    Docente --> UC3
-    DRI --> UC9
-    DRI --> UC10
-    DRI --> UC11
+    subgraph Modulos["📦 Sistema PUMI — Módulos Funcionais"]
+        direction TB
+        
+        subgraph M1["Mod 01 — Consulta & Guias"]
+            UC1([Consultar portal, guias e calendário])
+            UC3([Consultar instituições e mapa])
+            UC8([Orientação para mobilidade de entrada])
+        end
+
+        subgraph M2["Mod 02 — Oportunidades & Elegibilidade"]
+            UC2([Pesquisar oportunidades])
+            UC5([Verificar elegibilidade preliminar])
+        end
+
+        subgraph M3["Mod 03 — Manifestação de Interesse"]
+            UC6([Registrar interesse])
+            UC7([Consultar protocolo e situação])
+        end
+
+        subgraph M4["Mod 04 — Gestão DRI"]
+            UC9([Gerenciar oportunidades e conteúdos])
+            UC11([Atualizar situação das manifestações])
+        end
+    end
+
+    %% Conexões Diretas
+    A1 --> M1
+    A1 --> M2
+
+    A2 --> M1
+    A2 --> M2
+    A2 --> M3
+
+    A3 --> M1
+    A3 --> M2
+
+    A4 --> M1
+    A4 --> M2
+
+    A5 --> M4
 ```
 
 ### 9.2. Diagrama de componentes
 
 ```mermaid
 graph TB
-    subgraph Cliente[Camada do Cliente]
-        UI[Interface web responsiva]
-        AdminUI[Painel administrativo DRI]
+    subgraph ModuloApresentacao["🎨 Módulo 01: Camada de Apresentação (Frontend)"]
+        UI[Interface Web Responsiva]
+        AdminUI[Painel Administrativo DRI]
     end
 
-    subgraph Aplicacao[Camada de Aplicação]
-        API[API / Controladores]
-        Auth[Autenticação e autorização]
-        Oportunidades[Serviço de oportunidades e instituições]
-        Conteudo[Serviço de guias e calendário]
-        Elegibilidade[Serviço de elegibilidade preliminar]
-        Interesse[Serviço de manifestações]
+    subgraph ModuloServicos["⚙️ Módulo 02: Camada de Serviços da Aplicação (Backend)"]
+        API[API Gateway / Controladores REST]
+        
+        subgraph SubModuloscatalogo["Submódulo Core"]
+            Auth[Serviço de Autenticação & Autorização]
+            Oportunidades[Serviço de Oportunidades & Instituições]
+            Conteudo[Serviço de Guias & Calendário]
+        end
+        
+        subgraph SubModulosRegra["Submódulo Negócio"]
+            Elegibilidade[Serviço de Elegibilidade Preliminar]
+            Interesse[Serviço de Manifestações]
+        end
     end
 
-    subgraph Dados[Camada de Persistência]
-        BD[(Banco de dados relacional)]
+    subgraph ModuloPersistencia["💾 Módulo 03: Camada de Persistência"]
+        BD[(Banco de Dados Relacional)]
     end
 
-    subgraph Externos[Serviços externos / institucionais]
-        SSO[Autenticação institucional, se disponível]
-        Formularios[Formulários oficiais externos]
-        Mapa[Serviço ou biblioteca de mapas]
+    subgraph ModuloIntegracao["🔌 Módulo 04: Integradora de Serviços Externos"]
+        SSO[Serviço Autenticação Institutional]
+        Formularios[Formulários Oficiais Externos]
+        Mapa[Serviço de Mapas / Geolocalização]
     end
 
-    UI --> API
-    AdminUI --> API
-    API --> Auth
-    API --> Oportunidades
-    API --> Conteudo
-    API --> Elegibilidade
-    API --> Interesse
-    Auth --> BD
-    Oportunidades --> BD
-    Conteudo --> BD
-    Elegibilidade --> BD
-    Interesse --> BD
+    %% Relacionamentos Modularizados
+    ModuloApresentacao --> API
+    API --> SubModuloscatalogo
+    API --> SubModulosRegra
+    
+    SubModuloscatalogo --> ModuloPersistencia
+    SubModulosRegra --> ModuloPersistencia
+
     Auth -.-> SSO
-    UI -.-> Formularios
-    UI -.-> Mapa
+    ModuloApresentacao -.-> Formularios
+    ModuloApresentacao -.-> Mapa
 ```
 
 ### 9.3. Diagrama de implantação
