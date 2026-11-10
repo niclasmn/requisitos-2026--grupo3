@@ -101,14 +101,14 @@ A demanda consiste em desenvolver uma aplicação web responsiva que funcione co
 
 As personas abaixo são perfis de referência propostos para orientar decisões de experiência. Não representam entrevistas já realizadas.
 
-### 5.1. Mariana — estudante da Unifor interessada em intercâmbio
+### 5.1. Mario — estudante da Unifor interessada em intercâmbio
 
 - **Descrição:** estudante de graduação que ouviu falar sobre oportunidades internacionais, mas não sabe por onde começar nem onde encontrar os editais vigentes.
 - **Objetivos:** descobrir instituições conveniadas, entender requisitos e prazos, verificar se atende preliminarmente aos critérios e saber qual é o próximo passo para se candidatar.
 - **Dores:** informações espalhadas; dúvidas sobre a própria elegibilidade; receio de perder prazos ou esquecer documentação.
 - **Necessidades no PUMI:** catálogo filtrável, calendário visível, detalhes completos da oportunidade, verificador preliminar e link para o procedimento oficial.
 
-### 5.2. Alex — estudante estrangeiro interessado na Unifor
+### 5.2. Nicolette — estudante estrangeiro interessado na Unifor
 
 - **Descrição:** estudante de uma universidade estrangeira que deseja conhecer possibilidades de mobilidade acadêmica em Fortaleza.
 - **Objetivos:** compreender como estudar na Unifor, quais informações deve obter com sua instituição de origem, quais documentos podem ser necessários e com quem falar.
