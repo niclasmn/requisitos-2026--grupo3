@@ -1,5 +1,5 @@
 ## 📖 Glossário de Termos
-<img src="assets/images/logo-pumi.png" alt="Logo PUMI (Portal Unificado de Mobilidade Internacional)" width="15%">
+<img src="../assets/images/logo-pumi.png" alt="Logo PUMI (Portal Unificado de Mobilidade Internacional)" width="100%">
 
 ## Histórico de Versões
 
