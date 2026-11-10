@@ -14,6 +14,7 @@
 |---|---:|---|---|
 | 29/10/2026 | 1.0 | Criação inicial da visão da demanda do PUMI. | Equipe 3 — Nicholas |
 | 01/11/2026 | 1.1 | Revisão da visão, consolidação das sugestões 3 (Gestão de Oportunidades Internacionais) e 4 (Portal de Internacionalização), preenchimento das lacunas e delimitação da Visão de Demanda para um MVP adequado ao Scrum. | Equipe 3 |
+| 10/11/2026 | 1.2 | Ajuste da persona da DRI e alinhamento dos perfis de acesso, funcionalidades, diagramas e histórias de usuário ao uso compartilhado do painel administrativo pelos profissionais da área. | Equipe 3 |
 
 > **Nota de elaboração:** esta versão transforma a concepção inicial em uma proposta de produto. Os itens identificados como **proposta a validar** são decisões sugeridas para orientar o desenvolvimento e precisam ser confirmados com a DRI e, quando aplicável, com as áreas responsáveis da Unifor. Em especial, critérios acadêmicos, períodos oficiais, disponibilidade de integrações e regras de tratamento de dados não devem ser considerados definitivos sem validação institucional.
 
@@ -55,7 +56,7 @@ A demanda consiste em desenvolver uma aplicação web responsiva que funcione co
 - **Estude mundo afora com a Unifor:** estudantes da Unifor consultam instituições conveniadas, editais, vagas, requisitos, calendário e orientações para mobilidade de saída. Quando aplicável, podem realizar uma verificação preliminar de elegibilidade e registrar interesse.
 - **Do mundo para a Unifor:** estudantes estrangeiros encontram orientações para estudar na Universidade, informações sobre candidatura, documentação, calendário, vida acadêmica e canais de contato. O portal apresenta o caminho institucional para a candidatura, sem tentar substituir os procedimentos oficiais.
 - **Conheça a internacionalização da Unifor:** visitantes, familiares, docentes, instituições parceiras e demais interessados acessam informações públicas sobre programas, parcerias e oportunidades.
-- **Gerencie o portal:** usuários autorizados da DRI cadastram e atualizam oportunidades, instituições, calendários, conteúdos informativos e manifestações de interesse.
+- **Gerencie o portal:** profissionais da DRI utilizam o painel administrativo para cadastrar e atualizar oportunidades, instituições, calendários, conteúdos informativos e manifestações de interesse.
 
 ### 3.2. Módulos do produto
 
@@ -66,9 +67,9 @@ A demanda consiste em desenvolver uma aplicação web responsiva que funcione co
 | Instituições conveniadas | Dar visibilidade à rede internacional da Unifor. | Catálogo de instituições e mapa-múndi com marcadores, filtro por continente e cartões informativos. |
 | Calendário e períodos | Evidenciar as janelas de inscrição. | Exibição do período atual, quando houver, do período anterior mais recente e da próxima janela divulgada. |
 | Elegibilidade preliminar | Ajudar o estudante da Unifor a verificar se atende aos critérios cadastrados para uma oportunidade. | Formulário de autodeclaração de dados acadêmicos e resultado orientativo. |
-| Interesse e atendimento | Organizar o primeiro contato relacionado a uma oportunidade. | Registro simplificado de interesse, número de protocolo e atualização de situação pela DRI. |
+| Interesse e atendimento | Organizar o primeiro contato relacionado a uma oportunidade. | Registro simplificado de interesse, número de protocolo e atualização de situação pelos profissionais da DRI. |
 | Guia de mobilidade | Reunir orientações para mobilidade de saída e de entrada. | Guias sobre documentação, vistos, proficiência, custos, hospedagem, aproveitamento acadêmico e contatos. |
-| Administração DRI | Permitir que a área responsável mantenha o portal atualizado. | Cadastro, edição, publicação, arquivamento e gestão de conteúdo e manifestações. |
+| Administração DRI | Permitir que os profissionais da área mantenham o portal atualizado. | Cadastro, edição, publicação, arquivamento e gestão de conteúdo e manifestações pelos profissionais da DRI. |
 
 ### 3.3. Diretrizes de experiência
 
@@ -80,7 +81,7 @@ A demanda consiste em desenvolver uma aplicação web responsiva que funcione co
 - A identidade visual poderá aproveitar referências cromáticas institucionais da Unifor, respeitando o guia de marca vigente, que deverá ser consultado pela equipe.
 ### 3.4. Diretrizes Operacionais e de Segurança
 - Acessibilidade e Usabilidade: O portal seguirá rigorosos padrões de acessibilidade (WCAG) e responsividade para dispositivos móveis e desktops.
-- Governança de Conteúdo: Contará com perfis de acesso diferenciados (Administradores/DRI para publicação de editais e curadoria de conteúdo, e Usuários/Estudantes e Docentes para consulta e submissão).
+- Governança de Conteúdo: contará com perfis de acesso diferenciados para profissionais da DRI, responsáveis pela administração do portal, e para estudantes e demais visitantes, que terão acesso às funcionalidades correspondentes ao seu perfil. Os profissionais da DRI terão acesso ao painel administrativo, sem distinção de níveis hierárquicos entre eles no escopo proposto.
 - Segurança e Conformidade: Sua arquitetura cumprirá a proteção de dados sensíveis e o cumprimento das normas de privacidade vigentes (LGPD).
 
 ## 4. Partes Interessadas
@@ -164,26 +165,26 @@ Os valores e frequências indicam a prioridade relativa sugerida para o produto.
 | ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor |
 |---|---|---|---|---|---|---|
 | F3.1 | Manifestação simplificada de interesse | Permitir que um estudante da Unifor autenticado registre interesse em uma oportunidade, com dados mínimos e ciência de que isso não é uma candidatura oficial. | Incluída, com escopo limitado | Estudante Unifor | Sazonal | Alto |
-| F3.2 | Protocolo e consulta de situação | Gerar protocolo e permitir ao estudante consultar a situação do registro; a DRI poderá atualizá-la em estados simples, como “Recebida”, “Em orientação”, “Concluída” ou “Cancelada”. | Incluída, com escopo limitado | Estudante Unifor, DRI | Sazonal | Alto |
-| F3.3 | Gestão de manifestações pela DRI | Listar registros por oportunidade e atualizar sua situação. Não contempla avaliação formal ou decisão de seleção. | Incluída, com escopo limitado | DRI | Sazonal | Alto |
-| F3.4 | Candidatura formal e envio de documentos | Realizar inscrição oficial, upload de documentos e análise documental no próprio PUMI. | Fora do escopo do MVP | Estudante, DRI | Sazonal | Alto |
+| F3.2 | Protocolo e consulta de situação | Gerar protocolo e permitir ao estudante consultar a situação do registro; os profissionais da DRI poderão atualizá-la em estados simples, como “Recebida”, “Em orientação”, “Concluída” ou “Cancelada”. | Incluída, com escopo limitado | Estudante Unifor, profissional da DRI | Sazonal | Alto |
+| F3.3 | Gestão de manifestações pela DRI | Listar registros por oportunidade e atualizar sua situação. Não contempla avaliação formal ou decisão de seleção. | Incluída, com escopo limitado | Profissional da DRI | Sazonal | Alto |
+| F3.4 | Candidatura formal e envio de documentos | Realizar inscrição oficial, upload de documentos e análise documental no próprio PUMI. | Fora do escopo do MVP | Estudante, profissional da DRI | Sazonal | Alto |
 
 ### Necessidade 4 — Administrar informações e oportunidades
 
 | ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor |
 |---|---|---|---|---|---|---|
-| F4.1 | Autenticação e perfis de acesso | Restringir o painel administrativo à DRI e os recursos pessoais às pessoas autorizadas. Priorizar autenticação institucional, se a integração estiver disponível. | Incluída | DRI, estudante Unifor | Sempre | Alto |
-| F4.2 | Cadastro e edição de oportunidades | Permitir criar, editar, publicar, encerrar e arquivar oportunidades, preenchendo os campos essenciais. | Incluída | DRI | Média / sazonal | Alto |
-| F4.3 | Cadastro de instituições | Manter nome, cidade/estado, país, continente, coordenadas do marcador e informações públicas da instituição. | Incluída | DRI | Baixa / eventual | Médio |
-| F4.4 | Gestão de períodos e calendários | Cadastrar datas de abertura e encerramento, identificando períodos confirmados e informações ainda não divulgadas. | Incluída | DRI | Sazonal | Alto |
-| F4.5 | Gestão de guias e conteúdo | Criar e atualizar textos informativos e contatos apresentados no portal, incluindo versões em português e inglês dos conteúdos priorizados. | Incluída | DRI | Média | Alto |
-| F4.6 | Histórico básico de alterações | Registrar usuário e data das principais alterações administrativas, especialmente publicação, edição e encerramento de oportunidades. | Incluída, em nível básico | DRI | Média | Médio |
+| F4.1 | Autenticação e perfis de acesso | Restringir o painel administrativo aos profissionais da DRI e os recursos pessoais aos estudantes autenticados. Priorizar autenticação institucional, se a integração estiver disponível. | Incluída | Profissional da DRI, estudante Unifor | Sempre | Alto |
+| F4.2 | Cadastro e edição de oportunidades | Permitir criar, editar, publicar, encerrar e arquivar oportunidades, preenchendo os campos essenciais. | Incluída | Profissional da DRI | Média / sazonal | Alto |
+| F4.3 | Cadastro de instituições | Manter nome, cidade/estado, país, continente, coordenadas do marcador e informações públicas da instituição. | Incluída | Profissional da DRI | Baixa / eventual | Médio |
+| F4.4 | Gestão de períodos e calendários | Cadastrar datas de abertura e encerramento, identificando períodos confirmados e informações ainda não divulgadas. | Incluída | Profissional da DRI | Sazonal | Alto |
+| F4.5 | Gestão de guias e conteúdo | Criar e atualizar textos informativos e contatos apresentados no portal, incluindo versões em português e inglês dos conteúdos priorizados. | Incluída | Profissional da DRI | Média | Alto |
+| F4.6 | Histórico básico de alterações | Registrar usuário e data das principais alterações administrativas, especialmente publicação, edição e encerramento de oportunidades. | Incluída, em nível básico | Profissional da DRI | Média | Médio |
 
 ### Necessidade 5 — Garantir segurança, qualidade e continuidade
 
 | ID | Requisito Não Funcional | Descrição | Escopo | Atores | Frequência | Valor |
 |---|---|---|---|---|---|---|
-| NF5.1 | Controle de acesso por perfil | Aplicar permissões distintas para visitante, estudante autenticado e administrador DRI. | Incluída | Todos | Sempre | Alto |
+| NF5.1 | Controle de acesso por perfil | Aplicar permissões distintas para visitante, estudante autenticado e profissional da DRI, garantindo acesso ao painel administrativo aos profissionais da área. | Incluída | Todos | Sempre | Alto |
 | NF5.2 | Proteção de dados | Coletar somente os dados necessários à manifestação de interesse e à autenticação; informar finalidade e tratamento dos dados. | Incluída | Estudante, DRI, Unifor | Sempre | Alto |
 | NF5.3 | Interface responsiva e acessível | Permitir uso em celular e computador, com navegação por teclado, contraste adequado, textos legíveis e estrutura semântica. | Incluída | Todos | Sempre | Alto |
 | NF5.4 | Desempenho | Manter carregamento e resposta adequados nas operações comuns de consulta e administração. | Incluída | Todos | Sempre | Alto |
@@ -239,7 +240,7 @@ A equipe deverá escolher as tecnologias considerando familiaridade, disponibili
 | Entidade | Finalidade / dados principais |
 |---|---|
 | Usuário | Identificação mínima, e-mail institucional quando aplicável e situação da conta. |
-| Perfil / Permissão | Define se o usuário é estudante, administrador DRI ou visitante público. |
+| Perfil / Permissão | Define se o usuário é estudante, profissional da DRI ou visitante público. |
 | Oportunidade | Título, descrição, modalidade, público-alvo, país, instituição, prazos, status, vagas informadas e link oficial. |
 | Instituição conveniada | Nome, cidade/estado, país, continente, coordenadas e informações públicas. |
 | Critério de elegibilidade | Oportunidade associada, tipo de critério, operador e valor esperado (por exemplo, PMG mínima, quando confirmada). |
@@ -250,7 +251,7 @@ A equipe deverá escolher as tecnologias considerando familiaridade, disponibili
 
 ### 8.3. Integrações e dependências
 
-- **Autenticação Unifor:** desejável para o acesso de estudantes e administradores. A viabilidade depende da documentação e da autorização da área de TI. Caso não esteja disponível no período do projeto, a equipe deverá limitar o recurso ou adotar uma estratégia provisória de autenticação aprovada pelo orientador e sem simular integração institucional.
+- **Autenticação Unifor:** desejável para o acesso de estudantes e profissionais da DRI. A viabilidade depende da documentação e da autorização da área de TI. Caso não esteja disponível no período do projeto, a equipe deverá limitar o recurso ou adotar uma estratégia provisória de autenticação aprovada pelo orientador e sem simular integração institucional.
 - **Formulários de candidatura:** o PUMI manterá links para os formulários oficiais atualmente utilizados. A candidatura continuará no canal definido pela DRI.
 - **Mapa:** o mapa deverá usar uma solução de visualização compatível com o projeto e marcadores cadastrados pela DRI. A listagem textual deverá continuar disponível caso o mapa ou serviço externo falhe.
 - **Conteúdo institucional:** a DRI será a fonte de validação dos textos, editais, calendários, requisitos e dados de instituições.
@@ -266,7 +267,7 @@ flowchart LR
         A2[Estudante Unifor]
         A3[Estudante Estrangeiro]
         A4[Docente]
-        A5[Administrador DRI]
+        A5[Profissional da DRI]
     end
 
     subgraph Modulos["📦 Sistema PUMI — Módulos Funcionais"]
@@ -317,7 +318,7 @@ flowchart LR
 graph TB
     subgraph ModuloApresentacao["🎨 Módulo 01: Camada de Apresentação (Frontend)"]
         UI[Interface Web Responsiva]
-        AdminUI[Painel Administrativo DRI]
+        AdminUI[Painel Administrativo da DRI]
     end
 
     subgraph ModuloServicos["⚙️ Módulo 02: Camada de Serviços da Aplicação (Backend)"]
@@ -452,21 +453,20 @@ As histórias abaixo podem ser convertidas em Product Backlog Items. Os critéri
 
 **US08 — Como profissional da DRI, quero consultar manifestações por oportunidade e atualizar sua situação, para organizar os retornos aos estudantes.**
 
-- O administrador visualiza os registros conforme suas permissões.
-- Toda mudança de situação registra data e usuário responsável.
-- A DRI não consegue alterar a manifestação de outro usuário sem permissão administrativa apropriada.
+- Os profissionais da DRI podem visualizar as manifestações e atualizar sua situação.
+- Toda mudança de situação registra a data e o profissional responsável.
 
 ### Épico D — Administração
 
-**US09 — Como administrador da DRI, quero cadastrar e atualizar oportunidades, para manter o catálogo confiável sem solicitar mudanças à equipe de desenvolvimento.**
+**US09 — Como profissional da DRI, quero cadastrar e atualizar oportunidades, para manter o catálogo confiável sem solicitar mudanças à equipe de desenvolvimento.**
 
 - O formulário valida os campos obrigatórios antes de publicar.
-- O administrador pode salvar um registro como rascunho.
-- O administrador pode publicar, encerrar ou arquivar uma oportunidade.
+- O profissional da DRI pode salvar um registro como rascunho.
+- O profissional da DRI pode publicar, encerrar ou arquivar uma oportunidade.
 
-**US10 — Como administrador da DRI, quero atualizar calendários e guias, para manter as orientações do portal alinhadas às informações institucionais.**
+**US10 — Como profissional da DRI, quero atualizar calendários e guias, para manter as orientações do portal alinhadas às informações institucionais.**
 
-- O administrador pode editar conteúdo e indicar o idioma.
+- O profissional da DRI pode editar conteúdo e indicar o idioma.
 - A página pública apresenta a versão publicada e sua data de atualização, quando aplicável.
 
 ---
