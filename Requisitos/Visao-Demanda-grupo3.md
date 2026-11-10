@@ -142,53 +142,53 @@ Os valores e frequências indicam a prioridade relativa sugerida para o produto.
 
 ### Necessidade 1 — Descobrir oportunidades e compreender os caminhos de mobilidade
 
-| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor | Prioridade sugerida |
-|---|---|---|---|---|---|---|---|
-| F1.1 | Página inicial e seleção de jornada | Apresentar o PUMI e direcionar para “Estude mundo afora”, “Do mundo para a Unifor” e informações gerais. | Incluída | Todos os visitantes | Alta | Alto | Must |
-| F1.2 | Catálogo de oportunidades | Listar oportunidades publicadas pela DRI, com filtros por modalidade, país, instituição, público e situação/prazo, conforme dados disponíveis. | Incluída | Estudante Unifor, docente, visitante | Alta em períodos de edital | Alto | Must |
-| F1.3 | Detalhes da oportunidade | Exibir descrição, instituição, país, público-alvo, requisitos, PMG quando aplicável, vagas quando informadas, prazos, documentação, benefícios e link oficial. | Incluída | Estudante Unifor, docente, visitante | Alta em períodos de edital | Alto | Must |
-| F1.4 | Calendário de inscrições | Mostrar período anterior mais recente, janela atual quando vigente e próxima janela divulgada. Não apresentar previsão como data oficial. | Incluída | Estudante Unifor, visitante | Sazonal | Alto | Must |
-| F1.5 | Catálogo e mapa de instituições | Exibir instituições conveniadas em lista e em mapa-múndi simplificado, com filtro por continente e cartão com nome e localização. | Incluída, em versão simplificada | Estudante Unifor, docente, visitante | Média | Alto | Should |
-| F1.6 | Consulta de conteúdo em inglês | Disponibilizar em inglês as páginas e orientações essenciais para o público internacional. | Incluída, com conteúdo priorizado | Estudante estrangeiro, visitante | Média | Alto | Must |
+| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor |
+|---|---|---|---|---|---|---|
+| F1.1 | Página inicial e seleção de jornada | Apresentar o PUMI e direcionar para “Estude mundo afora”, “Do mundo para a Unifor” e informações gerais. | Incluída | Todos os visitantes | Alta | Alto |
+| F1.2 | Catálogo de oportunidades | Listar oportunidades publicadas pela DRI, com filtros por modalidade, país, instituição, público e situação/prazo, conforme dados disponíveis. | Incluída | Estudante Unifor, docente, visitante | Alta em períodos de edital | Alto |
+| F1.3 | Detalhes da oportunidade | Exibir descrição, instituição, país, público-alvo, requisitos, PMG quando aplicável, vagas quando informadas, prazos, documentação, benefícios e link oficial. | Incluída | Estudante Unifor, docente, visitante | Alta em períodos de edital | Alto |
+| F1.4 | Calendário de inscrições | Mostrar período anterior mais recente, janela atual quando vigente e próxima janela divulgada. Não apresentar previsão como data oficial. | Incluída | Estudante Unifor, visitante | Sazonal | Alto |
+| F1.5 | Catálogo e mapa de instituições | Exibir instituições conveniadas em lista e em mapa-múndi simplificado, com filtro por continente e cartão com nome e localização. | Incluída, em versão simplificada | Estudante Unifor, docente, visitante | Média | Alto |
+| F1.6 | Consulta de conteúdo em inglês | Disponibilizar em inglês as páginas e orientações essenciais para o público internacional. | Incluída, com conteúdo priorizado | Estudante estrangeiro, visitante | Média | Alto |
 
 ### Necessidade 2 — Orientar estudantes e interessados antes da candidatura
 
-| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor | Prioridade sugerida |
-|---|---|---|---|---|---|---|---|
-| F2.1 | Guia de mobilidade de saída | Reunir orientações sobre candidatura, documentos, proficiência, vistos, custos estimados, hospedagem, aproveitamento de disciplinas e contatos. | Incluída | Estudante Unifor, docente | Média | Alto | Must |
-| F2.2 | Guia de mobilidade de entrada | Reunir orientações para estrangeiros interessados em estudar na Unifor, incluindo etapas institucionais, documentos e canais de contato. | Incluída | Estudante estrangeiro, instituição parceira | Média | Alto | Must |
-| F2.3 | Verificação preliminar de elegibilidade | Permitir que o estudante informe dados acadêmicos solicitados e compare esses dados aos critérios cadastrados para uma oportunidade. | Incluída | Estudante Unifor | Sazonal | Alto | Must |
-| F2.4 | Direcionamento para candidatura oficial | Apresentar o link e as instruções do processo oficial, inclusive quando o formulário for externo. | Incluída | Estudante Unifor, estudante estrangeiro | Sazonal | Alto | Must |
-| F2.5 | Canais de atendimento | Apresentar formas institucionais de contato com a DRI e orientar qual canal utilizar para cada assunto. | Incluída | Todos os públicos | Média | Médio | Must |
+| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor |
+|---|---|---|---|---|---|---|
+| F2.1 | Guia de mobilidade de saída | Reunir orientações sobre candidatura, documentos, proficiência, vistos, custos estimados, hospedagem, aproveitamento de disciplinas e contatos. | Incluída | Estudante Unifor, docente | Média | Alto |
+| F2.2 | Guia de mobilidade de entrada | Reunir orientações para estrangeiros interessados em estudar na Unifor, incluindo etapas institucionais, documentos e canais de contato. | Incluída | Estudante estrangeiro, instituição parceira | Média | Alto |
+| F2.3 | Verificação preliminar de elegibilidade | Permitir que o estudante informe dados acadêmicos solicitados e compare esses dados aos critérios cadastrados para uma oportunidade. | Incluída | Estudante Unifor | Sazonal | Alto |
+| F2.4 | Direcionamento para candidatura oficial | Apresentar o link e as instruções do processo oficial, inclusive quando o formulário for externo. | Incluída | Estudante Unifor, estudante estrangeiro | Sazonal | Alto |
+| F2.5 | Canais de atendimento | Apresentar formas institucionais de contato com a DRI e orientar qual canal utilizar para cada assunto. | Incluída | Todos os públicos | Média | Médio |
 
 ### Necessidade 3 — Registrar e acompanhar o interesse inicial
 
-| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor | Prioridade sugerida |
-|---|---|---|---|---|---|---|---|
-| F3.1 | Manifestação simplificada de interesse | Permitir que um estudante da Unifor autenticado registre interesse em uma oportunidade, com dados mínimos e ciência de que isso não é uma candidatura oficial. | Incluída, com escopo limitado | Estudante Unifor | Sazonal | Alto | Should |
-| F3.2 | Protocolo e consulta de situação | Gerar protocolo e permitir ao estudante consultar a situação do registro; a DRI poderá atualizá-la em estados simples, como “Recebida”, “Em orientação”, “Concluída” ou “Cancelada”. | Incluída, com escopo limitado | Estudante Unifor, DRI | Sazonal | Alto | Should |
-| F3.3 | Gestão de manifestações pela DRI | Listar registros por oportunidade e atualizar sua situação. Não contempla avaliação formal ou decisão de seleção. | Incluída, com escopo limitado | DRI | Sazonal | Alto | Should |
-| F3.4 | Candidatura formal e envio de documentos | Realizar inscrição oficial, upload de documentos e análise documental no próprio PUMI. | Fora do escopo do MVP | Estudante, DRI | Sazonal | Alto | Could / futuro |
+| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor |
+|---|---|---|---|---|---|---|
+| F3.1 | Manifestação simplificada de interesse | Permitir que um estudante da Unifor autenticado registre interesse em uma oportunidade, com dados mínimos e ciência de que isso não é uma candidatura oficial. | Incluída, com escopo limitado | Estudante Unifor | Sazonal | Alto |
+| F3.2 | Protocolo e consulta de situação | Gerar protocolo e permitir ao estudante consultar a situação do registro; a DRI poderá atualizá-la em estados simples, como “Recebida”, “Em orientação”, “Concluída” ou “Cancelada”. | Incluída, com escopo limitado | Estudante Unifor, DRI | Sazonal | Alto |
+| F3.3 | Gestão de manifestações pela DRI | Listar registros por oportunidade e atualizar sua situação. Não contempla avaliação formal ou decisão de seleção. | Incluída, com escopo limitado | DRI | Sazonal | Alto |
+| F3.4 | Candidatura formal e envio de documentos | Realizar inscrição oficial, upload de documentos e análise documental no próprio PUMI. | Fora do escopo do MVP | Estudante, DRI | Sazonal | Alto |
 
 ### Necessidade 4 — Administrar informações e oportunidades
 
-| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor | Prioridade sugerida |
-|---|---|---|---|---|---|---|---|
-| F4.1 | Autenticação e perfis de acesso | Restringir o painel administrativo à DRI e os recursos pessoais às pessoas autorizadas. Priorizar autenticação institucional, se a integração estiver disponível. | Incluída | DRI, estudante Unifor | Sempre | Alto | Must |
-| F4.2 | Cadastro e edição de oportunidades | Permitir criar, editar, publicar, encerrar e arquivar oportunidades, preenchendo os campos essenciais. | Incluída | DRI | Média / sazonal | Alto | Must |
-| F4.3 | Cadastro de instituições | Manter nome, cidade/estado, país, continente, coordenadas do marcador e informações públicas da instituição. | Incluída | DRI | Baixa / eventual | Médio | Should |
-| F4.4 | Gestão de períodos e calendários | Cadastrar datas de abertura e encerramento, identificando períodos confirmados e informações ainda não divulgadas. | Incluída | DRI | Sazonal | Alto | Must |
-| F4.5 | Gestão de guias e conteúdo | Criar e atualizar textos informativos e contatos apresentados no portal, incluindo versões em português e inglês dos conteúdos priorizados. | Incluída | DRI | Média | Alto | Must |
-| F4.6 | Histórico básico de alterações | Registrar usuário e data das principais alterações administrativas, especialmente publicação, edição e encerramento de oportunidades. | Incluída, em nível básico | DRI | Média | Médio | Should |
+| ID | Funcionalidade | Descrição | Escopo | Atores | Frequência | Valor |
+|---|---|---|---|---|---|---|
+| F4.1 | Autenticação e perfis de acesso | Restringir o painel administrativo à DRI e os recursos pessoais às pessoas autorizadas. Priorizar autenticação institucional, se a integração estiver disponível. | Incluída | DRI, estudante Unifor | Sempre | Alto |
+| F4.2 | Cadastro e edição de oportunidades | Permitir criar, editar, publicar, encerrar e arquivar oportunidades, preenchendo os campos essenciais. | Incluída | DRI | Média / sazonal | Alto |
+| F4.3 | Cadastro de instituições | Manter nome, cidade/estado, país, continente, coordenadas do marcador e informações públicas da instituição. | Incluída | DRI | Baixa / eventual | Médio |
+| F4.4 | Gestão de períodos e calendários | Cadastrar datas de abertura e encerramento, identificando períodos confirmados e informações ainda não divulgadas. | Incluída | DRI | Sazonal | Alto |
+| F4.5 | Gestão de guias e conteúdo | Criar e atualizar textos informativos e contatos apresentados no portal, incluindo versões em português e inglês dos conteúdos priorizados. | Incluída | DRI | Média | Alto |
+| F4.6 | Histórico básico de alterações | Registrar usuário e data das principais alterações administrativas, especialmente publicação, edição e encerramento de oportunidades. | Incluída, em nível básico | DRI | Média | Médio |
 
 ### Necessidade 5 — Garantir segurança, qualidade e continuidade
 
-| ID | Requisito Não Funcional | Descrição | Escopo | Atores | Frequência | Valor | Prioridade sugerida |
-|---|---|---|---|---|---|---|---|
-| F5.1 | Controle de acesso por perfil | Aplicar permissões distintas para visitante, estudante autenticado e administrador DRI. | Incluída | Todos | Sempre | Alto | Must |
-| F5.2 | Proteção de dados | Coletar somente os dados necessários à manifestação de interesse e à autenticação; informar finalidade e tratamento dos dados. | Incluída | Estudante, DRI, Unifor | Sempre | Alto | Must |
-| F5.3 | Interface responsiva e acessível | Permitir uso em celular e computador, com navegação por teclado, contraste adequado, textos legíveis e estrutura semântica. | Incluída | Todos | Sempre | Alto | Must |
-| F5.4 | Desempenho | Manter carregamento e resposta adequados nas operações comuns de consulta e administração. | Incluída | Todos | Sempre | Alto | Must |
+| ID | Requisito Não Funcional | Descrição | Escopo | Atores | Frequência | Valor |
+|---|---|---|---|---|---|---|
+| NF5.1 | Controle de acesso por perfil | Aplicar permissões distintas para visitante, estudante autenticado e administrador DRI. | Incluída | Todos | Sempre | Alto |
+| NF5.2 | Proteção de dados | Coletar somente os dados necessários à manifestação de interesse e à autenticação; informar finalidade e tratamento dos dados. | Incluída | Estudante, DRI, Unifor | Sempre | Alto |
+| NF5.3 | Interface responsiva e acessível | Permitir uso em celular e computador, com navegação por teclado, contraste adequado, textos legíveis e estrutura semântica. | Incluída | Todos | Sempre | Alto |
+| NF5.4 | Desempenho | Manter carregamento e resposta adequados nas operações comuns de consulta e administração. | Incluída | Todos | Sempre | Alto |
 
 ---
 ## 7. Regras de negócio propostas
