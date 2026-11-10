@@ -114,15 +114,13 @@ As personas abaixo são perfis de referência propostos para orientar decisões 
 - **Dores:** dificuldade para localizar informações em outro idioma e desconhecimento dos procedimentos locais.
 - **Necessidades no PUMI:** jornada de entrada identificável, conteúdo essencial em inglês, orientações organizadas e canal de contato da DRI.
 
-### 5.3. Camila — responsável pelo conteúdo e atendimento na DRI
-
-- **Descrição:** profissional que precisa divulgar oportunidades e orientar estudantes, mantendo informações corretas ao longo dos períodos de inscrição.
-- **Objetivos:** atualizar editais e calendários sem depender da equipe de desenvolvimento, visualizar manifestações recebidas e reduzir perguntas recorrentes.
-- **Dores:** retrabalho na divulgação, informações desatualizadas em diferentes canais e dificuldade de acompanhar contatos relacionados a oportunidades específicas.
-- **Necessidades no PUMI:** painel administrativo simples, campos padronizados, publicação/arquivamento, histórico básico de situação e visão das manifestações por oportunidade.
+### 5.3. Camila — profissional da Diretoria de Relações Internacionais (DRI)
+- **Descrição:** profissional da DRI responsável por administrar informações sobre oportunidades internacionais, orientar estudantes e manter o portal atualizado.
+- **Objetivos:** gerenciar editais, oportunidades, instituições conveniadas e calendários; acompanhar manifestações de interesse e facilitar a organização das atividades da DRI.
+- **Dores:** informações espalhadas por diferentes canais, retrabalho na atualização de conteúdos e dificuldade para acompanhar as manifestações de interesse.
+- **Necessidades no PUMI:** painel administrativo centralizado, cadastro e edição de oportunidades, gerenciamento de calendários e conteúdos, acompanhamento de manifestações de interesse e consulta ao histórico de alterações.
 
 ### 5.4. João — docente da Unifor
-
 - **Descrição:** docente que busca informações sobre cooperação, mobilidade acadêmica e oportunidades internacionais relacionadas à sua área.
 - **Objetivos:** conhecer programas e instituições parceiras e localizar o canal institucional adequado para obter orientação.
 - **Dores:** não saber se determinada oportunidade é exclusiva para estudantes ou se também contempla docentes.
