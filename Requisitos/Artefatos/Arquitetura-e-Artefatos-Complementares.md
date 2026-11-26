@@ -16,7 +16,8 @@ O **PUMI** é estruturado como uma aplicação web responsiva integrada ao porta
 
 ---
 
-## 2. Diagrama de Casos de Uso e Governança (PlantUML)
+## 2. Diagrama de Casos de Uso e Governança
+
 
 flowchart LR
     A1["Visitante / Parceiro"]
@@ -26,28 +27,16 @@ flowchart LR
     A5["Profissional da DRI"]
     A6["Analista de Marketing"]
 
-    subgraph PUMI["Sistema PUMI (Integrado ao Portal Unifor)"]
-        direction TB
-
-        subgraph Mod01["Mod 01 - Descoberta e Guias"]
-            UC1(["CDU01: Usar Quiz e Comparador de Destinos"])
-            UC2(["CDU02: Consultar Editais, Instituicoes e Mapa"])
-            UC3(["CDU03: Acessar Manual Estrangeiro e Contexto Fortaleza"])
-            UC4(["CDU04: Consultar Alertas Legais de Visto e Frequencia"])
-            UC5(["CDU05: Consultar Vitrine Docente e Publicacao Cientifica"])
-        end
-
-        subgraph Mod02["Mod 02 - Elegibilidade e Interesse"]
-            UC6(["CDU06: Verificar Elegibilidade Preliminar"])
-            UC7(["CDU07: Registrar Manifestacao de Interesse"])
-        end
-
-        subgraph Mod03["Mod 03 - Governanca DRI e Marketing"]
-            UC8(["CDU08: Elaborar Rascunhos de Conteudo e Editais"])
-            UC9(["CDU09: Gerenciar Manifestacoes de Interesse"])
-            UC10(["CDU10: Revisar e Aprovar Publicacao Oficial"])
-        end
-    end
+    UC1(["CDU01: Quiz e Comparador de Destinos"])
+    UC2(["CDU02: Editais, Instituicoes e Mapa"])
+    UC3(["CDU03: Manual Estrangeiro e Fortaleza"])
+    UC4(["CDU04: Alertas Legais de Visto e Frequencia"])
+    UC5(["CDU05: Vitrine Docente e Publicacao Cientifica"])
+    UC6(["CDU06: Verificar Elegibilidade Preliminar"])
+    UC7(["CDU07: Registrar Manifestacao de Interesse"])
+    UC8(["CDU08: Elaborar Rascunhos de Conteudo e Editais"])
+    UC9(["CDU09: Gerenciar Manifestacoes de Interesse"])
+    UC10(["CDU10: Revisar e Aprovar Publicacao Oficial"])
 
     A1 --> UC2
     A1 --> UC4
