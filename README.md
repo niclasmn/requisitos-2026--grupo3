@@ -9,3 +9,5 @@ _Grupo 3 | Prof. Marcelo Bezerra de Alcântara_
 
 ## 🌐 Projeto Internacionalização 
 -> _Desenvolvido conforme sugestões 3 e 4 do documento Propostas_Projetos_Internacionalizacao_ENADE_Unifor.docx_
+
+[PROTÓTIPO](https://niclasmn.github.io/requisitos-2026--grupo3/#/)
