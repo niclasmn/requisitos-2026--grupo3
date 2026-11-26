@@ -7,74 +7,86 @@
 |---|---:|---|---|
 | 01/11/2026 | 1.0 | Criação inicial do glossário do PUMI. | Equipe 3 - Nicholas |
 | 03/11/2026 | 1.1 | Atualização com base na Visão da Demanda atual, incluindo públicos, jornadas, módulos, requisitos, arquitetura e escopo do MVP. | Equipe 3 |
+| 26/11/2026 | 1.2 | Atualização alinhada à Visão da Demanda (v2.0 — pós-entrevista com a DRI), aos artefatos do SRS e às especificações de Casos de Uso (`CDU01`–`CDU10`), incorporando governança do Marketing, *web impact*, regras de visto/frequência (75%), indicadores agregados (LGPD), quiz/comparador de destinos e manual de Fortaleza. | Equipe 3 |
 
 ## Glossário do Projeto
 
-Glossário de termos, siglas e expressões utilizados no Portal Unificado de Oportunidades e Mobilidade Internacional (PUMI). As definições refletem a Visão da Demanda atual; decisões identificadas como dependentes de validação institucional permanecem condicionais.
+Glossário de termos, siglas e expressões utilizados no **Portal Unificado de Oportunidades e Mobilidade Internacional (PUMI)**, da **Universidade de Fortaleza (Unifor)**. As definições refletem a **Visão da Demanda (v2.0 — pós-entrevista com a DRI)**, os artefatos do **SRS** e as especificações de **Casos de Uso (`CDU01`–`CDU10`)**; detalhes operacionais ou técnicos ainda pendentes de confirmação com a DRI, o Departamento de Marketing ou a TI permanecem assinalados.
 
 | Termo/Sigla | Definição | Fonte/Observação |
 |---|---|---|
-| PUMI | Portal Unificado de Oportunidades e Mobilidade Internacional; aplicação web proposta para centralizar informações, oportunidades e orientações sobre internacionalização acadêmica vinculada à Unifor. | Visão da Demanda atual |
-| Unifor | Universidade de Fortaleza, instituição à qual o PUMI está vinculado. | Visão da Demanda atual |
-| Internacionalização acadêmica | Iniciativas e experiências que conectam a comunidade acadêmica a instituições, estudos e oportunidades de outros países, incluindo mobilidade de saída e de entrada. | Visão da Demanda atual |
-| Mobilidade internacional | Experiência acadêmica realizada temporariamente em outro país ou em instituição estrangeira, conforme o programa e as regras aplicáveis. | Visão da Demanda atual; definição geral do contexto |
-| Mobilidade de saída | Jornada voltada a pessoas vinculadas à Unifor que desejam estudar ou realizar atividades acadêmicas no exterior. | Visão da Demanda atual |
-| Mobilidade de entrada | Jornada voltada a estudantes ou instituições estrangeiras interessados em estudar ou realizar atividades acadêmicas na Unifor. | Visão da Demanda atual |
-| DRI | Diretoria de Relações Internacionais; área responsável por validar informações oficiais e, no PUMI proposto, administrar oportunidades, conteúdos, calendários e manifestações de interesse. | Visão da Demanda atual |
-| Estudante da Unifor | Estudante vinculado à Universidade de Fortaleza que pode consultar oportunidades, verificar preliminarmente critérios e registrar interesse em programas de mobilidade. | Visão da Demanda atual |
-| Estudante estrangeiro / candidato internacional | Pessoa vinculada a instituição ou país estrangeiro que busca informações sobre estudar ou realizar mobilidade na Unifor. | Visão da Demanda atual |
-| Docente | Professor da Unifor que consulta programas, parcerias e possibilidades de mobilidade ou cooperação acadêmica. | Visão da Demanda atual |
-| Visitante / público externo | Pessoa que consulta informações públicas sobre a internacionalização da Unifor sem necessariamente possuir cadastro. | Visão da Demanda atual |
-| Instituição conveniada | Instituição que mantém convênio ou acordo pertinente à mobilidade ou cooperação internacional com a Unifor. As informações oficiais devem ser validadas pela DRI. | Visão da Demanda atual |
-| Oportunidade internacional | Programa, edital, bolsa, intercâmbio, dupla titulação ou outra iniciativa internacional divulgada no PUMI. | Visão da Demanda atual |
-| Edital | Documento que descreve condições, critérios, prazos, documentação e orientações de participação em uma oportunidade. | Visão da Demanda atual |
-| Bolsa | Auxílio financeiro associado a uma oportunidade, conforme condições descritas no edital ou nas informações oficiais. | Visão da Demanda atual |
-| Programa de intercâmbio | Programa que possibilita uma experiência de mobilidade acadêmica conforme regras e acordos institucionais. | Visão da Demanda atual |
-| Dupla titulação | Percurso acadêmico que pode resultar em titulações de instituições participantes, de acordo com o programa e os acordos aplicáveis. | Visão da Demanda atual |
-| Catálogo de oportunidades | Área do PUMI que lista oportunidades publicadas e permite localizá-las e compará-las por filtros e detalhes. | Visão da Demanda atual |
-| Catálogo de instituições | Relação consultável das instituições conveniadas, com informações públicas e oportunidades relacionadas. | Visão da Demanda atual |
-| Mapa-múndi | Recurso cartográfico simplificado do PUMI, com marcadores de instituições, filtro por continente e cartões informativos. Complementa, mas não substitui, a listagem textual. | Visão da Demanda atual |
-| Calendário de inscrições | Recurso que apresenta períodos de inscrição divulgados, incluindo janela atual quando vigente, período anterior mais recente e próxima janela informada. | Visão da Demanda atual |
-| Janela de inscrição | Intervalo de datas em que uma oportunidade aceita inscrições ou manifestações, conforme informação oficial cadastrada. | Visão da Demanda atual |
-| Critério de elegibilidade | Condição definida para uma oportunidade que deve ser considerada ao avaliar se uma pessoa aparentemente atende aos requisitos publicados. | Visão da Demanda atual |
-| Elegibilidade preliminar | Comparação orientativa entre dados informados pelo estudante e critérios cadastrados. Não constitui aprovação, seleção nem decisão oficial da Unifor. | Visão da Demanda atual |
-| PMG | Sigla mencionada na Visão da Demanda como possível critério acadêmico. Seu significado institucional, cálculo e eventual valor mínimo devem ser confirmados com a DRI antes de implementação. | Visão da Demanda atual; validação institucional pendente |
-| Manifestação de interesse | Registro simplificado pelo qual estudante autenticado da Unifor demonstra interesse em uma oportunidade para iniciar contato organizado com a DRI. Não equivale à candidatura oficial. | Visão da Demanda atual |
-| Protocolo | Identificador gerado para localizar e consultar uma manifestação de interesse registrada. | Visão da Demanda atual |
-| Situação da manifestação | Estado operacional do registro de interesse. A Visão da Demanda propõe estados como “Recebida”, “Em orientação”, “Concluída” e “Cancelada”. | Visão da Demanda atual |
-| Candidatura oficial / formal | Inscrição realizada pelo procedimento formal indicado pela instituição ou pelo edital. No MVP, pode ocorrer em formulário ou canal externo ao PUMI. | Visão da Demanda atual |
-| MVP | Produto Mínimo Viável: primeira versão funcional, com recursos essenciais para validar a proposta com usuários e stakeholders. | Visão da Demanda atual |
-| Stakeholder / parte interessada | Pessoa, grupo ou área que influencia o projeto, participa dele ou é afetada por seus resultados. | Visão da Demanda atual |
-| Persona | Perfil de referência que representa necessidades e objetivos de um tipo de usuário; as personas do documento são propostas e não entrevistas já realizadas. | Visão da Demanda atual |
-| Requisito funcional | Descrição de uma capacidade ou comportamento que o sistema deve oferecer. | Visão da Demanda atual |
-| Requisito não funcional | Requisito relacionado à qualidade ou restrição do sistema, como acessibilidade, segurança, responsividade ou desempenho. | Visão da Demanda atual |
-| Acessibilidade | Condição de uso do portal por pessoas com diferentes capacidades e necessidades, incluindo navegação por teclado, contraste e estrutura semântica. | Visão da Demanda atual |
-| WCAG | Web Content Accessibility Guidelines; diretrizes de acessibilidade para conteúdo e interfaces web citadas pela Visão da Demanda. | Visão da Demanda atual |
-| Responsividade | Adaptação da interface a diferentes tamanhos de tela e dispositivos, incluindo celular, tablet e computador. | Visão da Demanda atual |
-| LGPD | Lei Geral de Proteção de Dados Pessoais; legislação brasileira de referência para o tratamento de dados pessoais. | Visão da Demanda atual |
-| Dado pessoal | Informação relacionada a pessoa natural identificada ou identificável. O PUMI deve limitar a coleta ao necessário e informar finalidade e tratamento. | Visão da Demanda atual; LGPD |
-| Dado acadêmico | Informação relativa à trajetória acadêmica, solicitada apenas quando necessária à funcionalidade e conforme tratamento autorizado. | Visão da Demanda atual |
-| Autenticação | Processo de confirmar a identidade de quem acessa uma área restrita do sistema. | Visão da Demanda atual |
-| Autenticação institucional | Autenticação por serviço da Unifor, desejável para estudantes e administradores, cuja viabilidade depende de documentação e autorização da área de TI. | Visão da Demanda atual; dependência a validar |
-| Perfil de acesso | Categoria de usuário usada para determinar permissões, como visitante, estudante autenticado ou administrador DRI. | Visão da Demanda atual |
-| Controle de acesso | Regras que restringem áreas e operações conforme o perfil e as permissões do usuário. | Visão da Demanda atual |
-| Painel administrativo DRI | Área restrita na qual usuários autorizados da DRI gerenciam oportunidades, instituições, calendários, conteúdos e manifestações. | Visão da Demanda atual |
-| Governança de conteúdo | Responsabilidades e procedimentos para validar, publicar, revisar e manter atualizadas as informações do portal. | Visão da Demanda atual |
-| Histórico de alterações | Registro básico de usuário e data das principais alterações administrativas, como publicação, edição ou encerramento de oportunidade. | Visão da Demanda atual |
-| API | Interface de programação que permite a comunicação entre componentes da aplicação ou com serviços externos. A arquitetura proposta prevê uma API/camada de aplicação. | Visão da Demanda atual |
-| Banco de dados relacional | Base estruturada em tabelas relacionadas, proposta para armazenar usuários, oportunidades, instituições, critérios, calendários, conteúdos e manifestações. | Visão da Demanda atual |
-| Integração institucional | Conexão do PUMI com sistemas ou serviços da Unifor, como autenticação. Sua disponibilidade depende de autorização e viabilidade técnica. | Visão da Demanda atual |
-| Formulário externo | Formulário ou canal oficial fora do PUMI para realização da candidatura formal, quando assim definido pela DRI. | Visão da Demanda atual |
-| Scrum | Framework ágil indicado para organizar o desenvolvimento iterativo do PUMI por meio de Sprints e inspeção dos resultados. | Visão da Demanda atual |
-| Product Owner | Papel responsável por maximizar o valor do produto e ordenar o Product Backlog. A representação e atribuição desse papel no projeto devem ser acordadas pela equipe. | Terminologia Scrum; aplicação a definir no projeto |
-| Scrum Master | Papel que apoia a adoção do Scrum e ajuda a equipe a remover impedimentos. | Terminologia Scrum |
-| Product Backlog | Lista ordenada de necessidades, funcionalidades, melhorias e correções do produto. | Terminologia Scrum |
-| Sprint | Período de trabalho com duração definida em que a equipe busca produzir um incremento utilizável. | Terminologia Scrum |
-| Incremento | Resultado integrado e utilizável que acrescenta valor ao produto. | Terminologia Scrum |
-| História de usuário | Forma de descrever uma necessidade do ponto de vista de um usuário, frequentemente no formato “Como…, quero…, para…”. | Visão da Demanda atual |
-| Critério de aceitação | Condição verificável usada para avaliar se uma história ou funcionalidade atende ao comportamento esperado. | Visão da Demanda atual |
-| Prioridade Must / Should / Could | Classificação sugerida na Visão da Demanda para indicar prioridade relativa das funcionalidades; a priorização final deve ser revista com o Product Owner. | Visão da Demanda atual |
-| HTTPS | Protocolo seguro de comunicação previsto nos diagramas de implantação para conexões entre navegador e aplicação. | Visão da Demanda atual |
-| Conteúdo bilíngue | Conteúdo disponibilizado em português e inglês; no MVP, a Visão da Demanda prioriza páginas e orientações essenciais em inglês. | Visão da Demanda atual |
-| Fora do escopo do MVP | Funcionalidade que não será implementada na primeira versão. A Visão da Demanda exclui candidatura formal, upload de documentos e análise documental dentro do PUMI. | Visão da Demanda atual |
-| Proposta a validar | Decisão sugerida no documento que depende de confirmação da DRI ou de áreas responsáveis da Unifor antes de ser tratada como regra definitiva. | Nota de elaboração da Visão da Demanda atual |
+| PUMI | Portal Unificado de Oportunidades e Mobilidade Internacional; módulo de expansão integrado ao ambiente digital oficial da Unifor e da DRI (e não um site externo separado) para centralizar orientações, descoberta de destinos e oportunidades, visibilidade científica (*web impact*) e contato inicial. | Visão da Demanda v2.0; SRS |
+| Unifor | Universidade de Fortaleza, instituição de ensino superior à qual o PUMI e a DRI estão vinculados. | Visão da Demanda v2.0 |
+| Internacionalização acadêmica | Conjunto de iniciativas, convênios, programas de mobilidade e ações de cooperação e pesquisa que conectam estudantes e docentes da Unifor a instituições e ambientes acadêmicos internacionais, abrangendo mobilidade de saída, mobilidade de entrada e *web impact*. | Visão da Demanda v2.0 |
+| Mobilidade internacional | Experiência acadêmica, de estudo, estágio ou cooperação realizada temporariamente em outro país ou instituição estrangeira, conforme o programa e as normas aplicáveis. | Visão da Demanda v2.0 |
+| Mobilidade de saída | Jornada *Estude Mundo Afora com a Unifor*, voltada a estudantes e docentes da Unifor que desejam estudar, pesquisar ou atuar no exterior. | Visão da Demanda v2.0; `CDU01`, `CDU02`, `CDU04`, `CDU05`, `CDU06`, `CDU07` |
+| Mobilidade de entrada | Jornada *Do Mundo para a Unifor*, voltada a estudantes estrangeiros interessados em realizar mobilidade acadêmica na Unifor em Fortaleza. | Visão da Demanda v2.0; `CDU03`, `CDU04` |
+| DRI | Diretoria de Relações Internacionais da Unifor; área de negócio e *stakeholder* principal responsável por definir regras de mobilidade, elaborar rascunhos de editais, guias e indicadores agregados, acompanhar manifestações de interesse e orientar candidatos. | Visão da Demanda v2.0; `CDU08`, `CDU09` |
+| Departamento de Marketing | Área de governança e aprovação editorial e visual da Unifor responsável por revisar, solicitar ajustes e aprovar a publicação oficial dos conteúdos elaborados pela DRI no ecossistema digital da instituição. | Visão da Demanda v2.0; `RN01`; `CDU10` |
+| Estudante da Unifor | Estudante regularmente vinculado à Unifor que consulta destinos e oportunidades, utiliza o quiz e comparador, verifica elegibilidade preliminar e registra manifestação de interesse. | Visão da Demanda v2.0; `CDU01`, `CDU06`, `CDU07` |
+| Estudante estrangeiro / candidato internacional | Pessoa vinculada a instituição ou país estrangeiro que consulta orientações essenciais (prioritariamente em inglês) sobre candidatura, visto de estudante, disciplinas em outros idiomas, frequência mínima e contexto local em Fortaleza. | Visão da Demanda v2.0; `CDU03`, `CDU04` |
+| Docente | Professor/pesquisador da Unifor que consulta oportunidades de mobilidade docente, redes de cooperação e curadoria de periódicos científicos internacionais para ampliar o *web impact*. | Visão da Demanda v2.0; `CDU05` |
+| Visitante / público externo | Pessoa (incluindo parceiros ou candidatos sem autenticação) que acessa informações públicas, editais, instituições conveniadas e alertas gerais no portal. | Visão da Demanda v2.0; `CDU02`, `CDU04` |
+| *Web impact* | Visibilidade, alcance e impacto acadêmico e científico internacional da Unifor, fomentados por meio da mobilidade docente, parcerias de pesquisa e divulgação de periódicos científicos internacionais qualificados e sem custos proibitivos. | Visão da Demanda v2.0; `CDU05` |
+| Quiz / Assistente Interativo de Destinos | Recurso interativo de afinidade (considerando critérios como orçamento, idioma, objetivos e cultura) que auxilia o estudante da Unifor a identificar países, cidades e instituições conveniadas compatíveis. | Visão da Demanda v2.0; `CDU01` |
+| Comparador de Destinos | Recurso que apresenta fichas comparativas de países, cidades e instituições (custo estimado de manutenção, idioma, cultura, prós e contras) para apoiar a escolha antes da inscrição. | Visão da Demanda v2.0; `CDU01` |
+| Instituição conveniada | Instituição de ensino ou pesquisa que mantém convênio ou acordo de mobilidade ou cooperação internacional com a Unifor, conforme validação da DRI. | Visão da Demanda v2.0; `CDU02` |
+| Oportunidade internacional | Programa, edital (próprio da Unifor ou de parceiros, como Santander), bolsa, intercâmbio, dupla titulação ou iniciativa de cooperação/mobilidade divulgada no PUMI. | Visão da Demanda v2.0; `CDU02`, `CDU05` |
+| Edital | Documento oficial que estabelece condições, critérios, prazos (incluindo antecedência para trâmites consulares), documentação e orientações de participação em uma oportunidade. | Visão da Demanda v2.0; `RN05`; `CDU02`, `CDU08` |
+| Bolsa | Auxílio financeiro ou benefício associado a uma oportunidade internacional, conforme regras do edital ou do programa parceiro. | Visão da Demanda v2.0 |
+| Programa de intercâmbio | Modalidade de mobilidade acadêmica temporária que permite cursar disciplinas ou desenvolver atividades em instituição parceira, sujeita a acordos institucionais e regras de aproveitamento/frequência. | Visão da Demanda v2.0 |
+| Dupla titulação | Percurso acadêmico estruturado por convênio específico que pode resultar em titulações emitidas por instituições participantes, conforme regras do programa. | Visão da Demanda v2.0 |
+| Catálogo de oportunidades | Área do PUMI que reúne editais e oportunidades vigentes e encerradas/futuras, permitindo busca e filtragem por modalidade, país, público (discente/docente) e situação/prazo. | Visão da Demanda v2.0; `CDU02` |
+| Catálogo de instituições | Relação consultável de instituições conveniadas com informações públicas e oportunidades associadas. | Visão da Demanda v2.0; `CDU02` |
+| Mapa-múndi | Recurso cartográfico simplificado do PUMI com marcadores de instituições/destinos, filtro por continente e cartões informativos, atuando de forma complementar à listagem textual. | Visão da Demanda v2.0; `CDU02` |
+| Manual do Estrangeiro & Contexto Fortaleza | Guia prático (prioritariamente em inglês) voltado a estudantes internacionais, reunindo disciplinas ofertadas em inglês/outros idiomas, bairros próximos à Unifor, moradia, custo de vida e proximidades (praias, shoppings, bancos e comércio). | Visão da Demanda v2.0; `CDU03` |
+| Visto de estudante | Autorização consular/migratória obrigatória para matrícula e permanência regular de estudante estrangeiro em atividades acadêmicas na Unifor; a matrícula apenas com passaporte ou visto de turismo é ilegal e sujeita a penalidades (Polícia Federal e MEC). | Visão da Demanda v2.0; `RN03`; `CDU03`, `CDU04` |
+| Frequência mínima (75%) | Regra acadêmica inegociável da Unifor que exige presença mínima de 75% nas disciplinas para aprovação, sem exceções, distinta de flexibilidades acadêmicas pontuais sujeitas a análise. | Visão da Demanda v2.0; `RN04`; `CDU03`, `CDU04` |
+| Antecedência consular | Prazo mínimo recomendado e destacado nos guias e editais para emissão de carta de aceite, envio de passaporte/documentos a consulados, emissão de passagens e contratação de seguro-viagem. | Visão da Demanda v2.0; `RN05`; `CDU01`, `CDU02`, `CDU04` |
+| Indicadores agregados | Estatísticas quantitativas consolidadas de mobilidade (por exemplo, quantidade de estudantes enviados/recebidos por período, país ou região), divulgadas sem nomes, matrículas ou dados pessoais identificáveis. | Visão da Demanda v2.0; `RN02`; `CDU02`, `CDU08` |
+| Calendário de inscrições | Recurso que exibe os períodos de inscrição divulgados, incluindo janela atual (quando vigente), período anterior mais recente e próxima janela informada. | Visão da Demanda v2.0 |
+| Janela de inscrição | Intervalo de datas definido em edital ou calendário oficial para inscrição ou registro de interesse em uma oportunidade. | Visão da Demanda v2.0 |
+| Critério de elegibilidade | Condição ou requisito definido para uma oportunidade que deve ser considerado ao avaliar a adequação preliminar de um candidato. | Visão da Demanda v2.0; `CDU06` |
+| Elegibilidade preliminar | Comparação orientativa entre informações declaradas pelo estudante e critérios cadastrados no edital; não substitui a análise documental oficial nem garante seleção ou aprovação. | Visão da Demanda v2.0; `RN06`; `CDU06` |
+| PMG | Sigla citada como possível critério acadêmico na mobilidade; sua definição operacional, fórmula de cálculo e nota/valor mínimo por edital dependem de validação institucional da DRI. | Visão da Demanda v2.0; `CDU06`; validação pendente |
+| Manifestação de interesse | Registro simplificado feito por estudante autenticado da Unifor para sinalizar interesse em uma oportunidade e iniciar o atendimento/orientação com a DRI; não equivale à candidatura oficial. | Visão da Demanda v2.0; `CDU07`, `CDU09` |
+| Protocolo | Código identificador gerado pelo sistema ao registrar uma manifestação de interesse para consulta e acompanhamento do atendimento. | Visão da Demanda v2.0; `CDU07`, `CDU09` |
+| Situação da manifestação | Estado operacional de uma manifestação de interesse acompanhada pela DRI, incluindo estados como “Recebida”, “Em orientação”, “Concluída” e “Cancelada”. | Visão da Demanda v2.0; `CDU09` |
+| Candidatura oficial / formal | Processo formal de inscrição exigido pelo edital, pela Unifor ou por instituição/programa parceiro, realizado pelos canais oficiais indicados (podendo ocorrer fora do PUMI). | Visão da Demanda v2.0; `CDU02`, `CDU03`, `CDU05`, `CDU07` |
+| MVP | Produto Mínimo Viável: primeira versão funcional do PUMI, com recursos essenciais para validar a proposta com a DRI, o Marketing e os usuários. | Visão da Demanda v2.0; SRS |
+| *Stakeholder* / parte interessada | Pessoa, grupo, setor ou instituição que influencia, participa ou é impactada pelo PUMI (ex.: DRI, Departamento de Marketing, estudantes da Unifor, estudantes estrangeiros, docentes, TI da Unifor e Equipe 3). | Visão da Demanda v2.0; SRS |
+| Persona | Perfil fictício de referência construído para representar objetivos, dores e necessidades de um grupo de usuários (Lucas, Claire, Camila, Prof. Roberto e Mariana). | Visão da Demanda v2.0; SRS |
+| Requisito funcional | Descrição de um comportamento, serviço ou funcionalidade que o sistema deve prover, detalhado na Visão da Demanda, no SRS e nos Casos de Uso (`CDU01`–`CDU10`). | Visão da Demanda v2.0; SRS; CDUs |
+| Requisito não funcional | Requisito relativo a atributos de qualidade, restrições técnicas, legais ou institucionais do sistema (ex.: conformidade LGPD, integração ao portal Unifor, identidade visual do Marketing, responsividade, acessibilidade WCAG, segurança e desempenho). | Visão da Demanda v2.0; SRS (`RNF01`–`RNF09`) |
+| Regra de negócio | Diretriz, norma legal, política institucional ou restrição de domínio que condiciona o funcionamento do PUMI e seus fluxos (`RN01`–`RN07`). | Visão da Demanda v2.0; SRS; CDUs |
+| Caso de uso (CDU) | Especificação estruturada (no padrão LAPIS, `CDU01` a `CDU10`) que descreve a interação entre atores e o sistema para cumprir um objetivo, incluindo fluxos principal, alternativos e de exceção, pós-condições, rastreabilidade e interface visual. | Especificação de Casos de Uso (LAPIS) |
+| Acessibilidade | Condição de uso do portal por pessoas com diferentes capacidades e necessidades, contemplando navegação por teclado, contraste adequado e estrutura semântica. | Visão da Demanda v2.0; `RNF06` |
+| WCAG | *Web Content Accessibility Guidelines*; conjunto de recomendações internacionais de acessibilidade web adotado como referência de qualidade no projeto. | Visão da Demanda v2.0; `RNF06` |
+| Responsividade | Capacidade da interface web de adaptar-se adequadamente a diferentes resoluções e dispositivos, como smartphones, *tablets* e computadores *desktop*. | Visão da Demanda v2.0; `RNF05` |
+| LGPD | Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018); legislação brasileira que rege o tratamento de dados pessoais e proíbe a exposição indevida de dados individuais de intercambistas. | Visão da Demanda v2.0; `RN02`; `RNF03` |
+| Dado pessoal | Informação relacionada a pessoa natural identificada ou identificável, sujeita aos princípios e limites da LGPD. | Visão da Demanda v2.0; LGPD |
+| Dado acadêmico | Informação relativa ao vínculo, curso, desempenho ou trajetória acadêmica do estudante, tratada apenas quando necessária e autorizada. | Visão da Demanda v2.0; LGPD |
+| Autenticação | Processo de verificação de identidade para acesso a recursos ou áreas restritas do sistema. | Visão da Demanda v2.0; `RNF04` |
+| Autenticação institucional / SSO | Mecanismo de autenticação integrado aos serviços/identidade digital da Unifor (*Single Sign-On*), cuja implementação técnica detalhada depende de validação com a TI da Unifor. | Visão da Demanda v2.0; `RNF04`; validação pendente |
+| Perfil de acesso | Classificação de usuário utilizada para definir permissões no sistema (ex.: Visitante/Parceiro, Estudante Unifor, Estudante Estrangeiro, Docente Unifor, Profissional da DRI e Analista de Marketing). | Visão da Demanda v2.0; `RNF04` |
+| Controle de acesso | Mecanismo que restringe funcionalidades e áreas conforme o perfil autenticado e as permissões atribuídas. | Visão da Demanda v2.0; `RNF04` |
+| Painel administrativo / fluxo de governança | Ambiente de gestão onde a DRI cria/edita rascunhos de conteúdos, editais, guias e indicadores e acompanha manifestações de interesse, e onde o Departamento de Marketing revisa, solicita ajustes e aprova a publicação oficial. | Visão da Demanda v2.0; `RN01`; `CDU08`, `CDU09`, `CDU10` |
+| Governança de conteúdo | Conjunto de papéis, etapas e regras que asseguram o crivo visual, editorial e de conformidade do Departamento de Marketing antes da publicação ou remoção de conteúdos oficiais da DRI no portal. | Visão da Demanda v2.0; `RN01`; `CDU08`, `CDU10` |
+| Histórico de alterações | Registro de auditoria que guarda autoria, data/hora e natureza das principais alterações realizadas em rascunhos, publicações, revisões e atendimentos. | Visão da Demanda v2.0; `RNF09`; `CDU08`, `CDU09`, `CDU10` |
+| API | *Application Programming Interface*; camada de interface/serviços que viabiliza a comunicação entre o *front-end* e os dados/serviços do sistema ou integrações externas. | Visão da Demanda v2.0; SRS |
+| Banco de dados relacional | Estrutura de armazenamento baseada em tabelas relacionadas para persistir oportunidades, destinos, regras/critérios, conteúdos/rascunhos, manifestações de interesse e registros de auditoria. | Visão da Demanda v2.0; SRS |
+| Integração institucional | Conexão do PUMI ao ambiente digital, identidade visual e serviços da Unifor, operando como módulo integrado e não como site externo isolado. | Visão da Demanda v2.0; `RNF01`, `RNF02` |
+| Formulário externo | Canal ou formulário oficial fora do PUMI utilizado para efetivar a candidatura formal quando assim definido em edital ou pela DRI. | Visão da Demanda v2.0; `CDU02`, `CDU07` |
+| Scrum | *Framework* ágil utilizado pela equipe para planejar e entregar o PUMI de forma incremental por meio de *Sprints*. | Visão da Demanda v2.0 |
+| *Product Owner* | Papel responsável por maximizar o valor do produto e priorizar o *Product Backlog*. | Terminologia Scrum |
+| *Scrum Master* | Papel que apoia a prática do Scrum e a remoção de impedimentos da equipe. | Terminologia Scrum |
+| *Product Backlog* | Lista ordenada de requisitos, funcionalidades, melhorias e correções do produto. | Terminologia Scrum |
+| *Sprint* | Iteração com duração fixa (time-box) durante a qual a equipe desenvolve e entrega um incremento utilizável do produto. | Terminologia Scrum |
+| Incremento | Resultado integrado e utilizável produzido em uma *Sprint* que agrega valor ao produto. | Terminologia Scrum |
+| História de usuário | Descrição concisa de uma necessidade sob a ótica do usuário, frequentemente estruturada como “Como [papel], quero [ação], para [benefício]”. | Visão da Demanda v2.0 |
+| Critério de aceitação | Condição objetiva e verificável utilizada para validar se uma funcionalidade ou história atende aos requisitos esperados. | Visão da Demanda v2.0 |
+| Prioridade *Must* / *Should* / *Could* | Classificação de priorização relativa de requisitos/funcionalidades (MoSCoW) sujeita a alinhamento com o *Product Owner* e *stakeholders*. | Visão da Demanda v2.0 |
+| HTTPS | *Hypertext Transfer Protocol Secure*; protocolo de comunicação criptografado utilizado para proteger o tráfego de dados entre o navegador e o servidor. | Visão da Demanda v2.0; `RNF03` |
+| Tradução estratégica / conteúdo bilíngue | Abordagem que prioriza a disponibilização em inglês das páginas essenciais para o público internacional (jornada de entrada, regras legais, guia de Fortaleza e visão institucional), evitando tradução irrestrita e onerosa de todo o conteúdo interno. | Visão da Demanda v2.0; `RN07`; `RNF08`; `CDU03`, `CDU04`, `CDU08`, `CDU10` |
+| Fora do escopo do MVP | Funcionalidades ou fluxos não contemplados na primeira versão do PUMI (como submissão de candidatura formal completa dentro do sistema, *upload* de documentos e análise documental oficial). | Visão da Demanda v2.0; SRS |
+| Proposta a validar | Definição ou parâmetro que ainda requer confirmação formal com a DRI, o Departamento de Marketing ou a TI da Unifor (ex.: regras de cálculo e nota mínima de PMG, integração técnica de SSO). | Visão da Demanda v2.0; SRS |
