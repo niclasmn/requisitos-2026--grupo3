@@ -77,7 +77,6 @@ flowchart LR
     %% Estilização opcional
     classDef actor fill:#f9f9f9,stroke:#333,stroke-width:1.5px;
     class A1,A2,A3,A4,A5,A6 actor;
----
 
 ## 3. Organização do Repositório de Requisitos (Padrão LAPIS)
 
