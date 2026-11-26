@@ -19,39 +19,36 @@ O **PUMI** é estruturado como uma aplicação web responsiva integrada ao porta
 ## 2. Diagrama de Casos de Uso e Governança (PlantUML)
 
 flowchart LR
-    %% Atores
-    A1["👤 Visitante / Parceiro"]
-    A2["👤 Estudante Unifor"]
-    A3["👤 Estudante Estrangeiro"]
-    A4["👤 Docente Unifor"]
-    A5["👤 Profissional da DRI"]
-    A6["👤 Analista de Marketing"]
+    A1["Visitante / Parceiro"]
+    A2["Estudante Unifor"]
+    A3["Estudante Estrangeiro"]
+    A4["Docente Unifor"]
+    A5["Profissional da DRI"]
+    A6["Analista de Marketing"]
 
-    %% Sistema e Pacotes
-    subgraph PUMI ["Sistema PUMI (Integrado ao Portal Unifor)"]
+    subgraph PUMI["Sistema PUMI (Integrado ao Portal Unifor)"]
         direction TB
 
-        subgraph Mod01 ["Mod 01 — Descoberta & Guias"]
+        subgraph Mod01["Mod 01 - Descoberta e Guias"]
             UC1(["CDU01: Usar Quiz e Comparador de Destinos"])
-            UC2(["CDU02: Consultar Editais, Instituições e Mapa"])
+            UC2(["CDU02: Consultar Editais, Instituicoes e Mapa"])
             UC3(["CDU03: Acessar Manual Estrangeiro e Contexto Fortaleza"])
-            UC4(["CDU04: Consultar Alertas Legais de Visto e Frequência"])
-            UC5(["CDU05: Consultar Vitrine Docente e Publicação Científica"])
+            UC4(["CDU04: Consultar Alertas Legais de Visto e Frequencia"])
+            UC5(["CDU05: Consultar Vitrine Docente e Publicacao Cientifica"])
         end
 
-        subgraph Mod02 ["Mod 02 — Elegibilidade & Interesse"]
+        subgraph Mod02["Mod 02 - Elegibilidade e Interesse"]
             UC6(["CDU06: Verificar Elegibilidade Preliminar"])
-            UC7(["CDU07: Registrar Manifestação de Interesse"])
+            UC7(["CDU07: Registrar Manifestacao de Interesse"])
         end
 
-        subgraph Mod03 ["Mod 03 — Governança DRI & Marketing"]
-            UC8(["CDU08: Elaborar Rascunhos de Conteúdo e Editais"])
-            UC9(["CDU09: Gerenciar Manifestações de Interesse"])
-            UC10(["CDU10: Revisar e Aprovar Publicação Oficial"])
+        subgraph Mod03["Mod 03 - Governanca DRI e Marketing"]
+            UC8(["CDU08: Elaborar Rascunhos de Conteudo e Editais"])
+            UC9(["CDU09: Gerenciar Manifestacoes de Interesse"])
+            UC10(["CDU10: Revisar e Aprovar Publicacao Oficial"])
         end
     end
 
-    %% Relacionamentos
     A1 --> UC2
     A1 --> UC4
 
@@ -73,10 +70,6 @@ flowchart LR
     A5 --> UC9
 
     A6 --> UC10
-
-    %% Estilização opcional
-    classDef actor fill:#f9f9f9,stroke:#333,stroke-width:1.5px;
-    class A1,A2,A3,A4,A5,A6 actor;
 
 ## 3. Organização do Repositório de Requisitos (Padrão LAPIS)
 
