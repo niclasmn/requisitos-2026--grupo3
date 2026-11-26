@@ -9,16 +9,16 @@
 
 O **PUMI** é estruturado como uma aplicação web responsiva integrada ao portal institucional da **Unifor**, composta por:
 
-* **Camada de Apresentação Web:** páginas e jornadas responsivas (*Estude Mundo Afora com a Unifor*, *Do Mundo para a Unifor*, *Docentes e Pesquisa Internacional*) e painéis administrativos (*DRI* e *Marketing*), aplicando identidade visual institucional e diretrizes WCAG.
-* **Camada de Aplicação / API:** regras de negócio de filtragem, cálculo de afinidade do quiz, verificação preliminar de elegibilidade, geração de protocolo de manifestação de interesse e máquina de estados do fluxo editorial (*Rascunho* -> *Aguardando Aprovação do Marketing* -> *Publicado* / *Ajustes Solicitados* / *Arquivado*).
-* **Camada de Dados Relacional:** persistência estruturada de oportunidades, instituições conveniadas, fichas de destinos, guias, curadoria docente, indicadores agregados, manifestações de interesse e trilhas de auditoria.
-* **Integrações Institucionais (a validar com TI):** serviço de autenticação institucional (SSO) e canais/formulários oficiais externos de candidatura formal.
+- **Camada de Apresentação Web:** páginas e jornadas responsivas (*Estude Mundo Afora com a Unifor*, *Do Mundo para a Unifor*, *Docentes e Pesquisa Internacional*) e painéis administrativos (*DRI* e *Marketing*), aplicando identidade visual institucional e diretrizes WCAG.
+- **Camada de Aplicação / API:** regras de negócio de filtragem, cálculo de afinidade do quiz, verificação preliminar de elegibilidade, geração de protocolo de manifestação de interesse e máquina de estados do fluxo editorial (*Rascunho* -> *Aguardando Aprovação do Marketing* -> *Publicado* / *Ajustes Solicitados* / *Arquivado*).
+- **Camada de Dados Relacional:** persistência estruturada de oportunidades, instituições conveniadas, fichas de destinos, guias, curadoria docente, indicadores agregados, manifestações de interesse e trilhas de auditoria.
+- **Integrações Institucionais (a validar com TI):** serviço de autenticação institucional (SSO) e canais/formulários oficiais externos de candidatura formal.
 
 ---
 
 ## 2. Diagrama de Casos de Uso e Governança
 
-
+```mermaid
 flowchart LR
     A1["Visitante / Parceiro"]
     A2["Estudante Unifor"]
@@ -59,6 +59,9 @@ flowchart LR
     A5 --> UC9
 
     A6 --> UC10
+```
+
+---
 
 ## 3. Organização do Repositório de Requisitos (Padrão LAPIS)
 
