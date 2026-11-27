@@ -1,4 +1,4 @@
-# Casos de Uso — PUMI
+# Casos de Uso
 
 Este diretório reúne os documentos de especificação dos Casos de Uso (CDUs) do PUMI (Portal Unificado de Oportunidades e Mobilidade Internacional), projeto do Site da DRI Expandido da Universidade de Fortaleza (Unifor).
 
